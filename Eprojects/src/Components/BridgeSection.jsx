@@ -37,8 +37,8 @@ const BridgeSection = ({ sectionTitle }) => {
       </div>
       <div className="bridge-list">
         {filteredBridges.map((bridge) => (
-          <div key={bridge.id} className="bridge-card">
-            <img src={bridge.images[0]} alt={bridge.name} className="bridge-image" />
+          <div key={bridge.id} className="bridge-card"   style={{ backgroundImage: `url(${bridge.images[0]})`, backgroundPosition: "center", backgroundSize: "cover"}}>
+            {/* <img src={bridge.images[0]} alt={bridge.name} className="bridge-image" /> */}
             <h4>{bridge.name}</h4>
             <p>{bridge.description}</p>
           </div>
