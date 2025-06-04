@@ -139,14 +139,14 @@ header.header {
 }
 
 /* Main content */
-/* main.main-content {
+main.main-content {
   height: 100vh;
   width: 100%;
   display: flex;
   justify-content: start;
   align-items: start;
   border-radius: 8px;
-} */
+}
 
 /* BridgeSection */
 .bridge-section .filter {
