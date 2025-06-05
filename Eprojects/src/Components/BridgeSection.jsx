@@ -2,6 +2,17 @@ import React, { useState, useEffect } from "react";
 
 const continents = ["All", "Asia", "Europe", "North America", "South America", "Africa", "Australia"];
 
+const categoryMapping = {
+  "Historical Great Bridges": ["Historical Great Bridges"],
+  "High-Level Achievements": ["High-Level Achievements"],
+  "Iconic Bridges": ["Iconic", "Iconic Bridges"],
+  "Modern Great Bridges": ["Modern Great Bridges"],
+  "Longest": ["Longest"],
+  "Tallest": ["Tallest"],
+  "Highest": ["Highest"],
+  "Oldest": ["Oldest"],
+};
+
 const BridgeSection = ({ sectionTitle }) => {
   const [selectedContinent, setSelectedContinent] = useState("All");
   const [bridges, setBridges] = useState([]);
@@ -13,10 +24,23 @@ const BridgeSection = ({ sectionTitle }) => {
       .catch((error) => console.error("Error loading bridge data:", error));
   }, []);
 
-  const filteredBridges =
-    selectedContinent === "All"
-      ? bridges
-      : bridges.filter((bridge) => bridge.location.continent === selectedContinent);
+  const filteredBridges = bridges.filter((bridge) => {
+    const matchesContinent =
+      selectedContinent === "All" || bridge.location.continent === selectedContinent;
+
+    const mappedCategories = categoryMapping[sectionTitle] || [sectionTitle];
+
+    const matchesCategory =
+      !sectionTitle ||
+      sectionTitle === "All" ||
+      bridge.categories.some((cat) =>
+        mappedCategories.some(
+          (mappedCat) => cat.toLowerCase() === mappedCat.toLowerCase()
+        )
+      );
+
+    return matchesContinent && matchesCategory;
+  });
 
   return (
     <section className="bridge-section">
