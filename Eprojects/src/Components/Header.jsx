@@ -1,10 +1,13 @@
 import React from "react";
-import visitorCount from "./VisitorCount"
+import { useLocation } from 'react-router-dom'
 import VisitorCount from "./VisitorCount";
 
-const Header = ({ toggleSidebar }) => {
+function Header ({ toggleSidebar })  {
+
+  const location = useLocation();
+  const isHome = location.pathname === "/home";
   return (
-    <header className="header">
+    <header className={`header ${isHome ? "transparent" : ""}`}>
       <button className="sidebar-toggle" onClick={toggleSidebar} aria-label="Toggle menu">
         &#9776;
       </button>
