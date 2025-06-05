@@ -4,7 +4,7 @@ const Homepage = () => {
   return (
     <section className="homepage">
         <video autoPlay muted  loop className="video-background">
-            <source src="../assets/Homepage-Background.mp4" type="video/mp4"/>
+            <source src="../assets/" type="video/mp4"/>
             Your browser does not support the video tag.
         </video>
         <div className="content">
