@@ -8,10 +8,10 @@ const Header = ({ visitorCount, toggleSidebar }) => {
       </button>
       <div className="logo-visitor">
         <img
-          src="/vite.svg"
-          alt="Logo"
+          src=""
+          alt=""
           className="logo"
-          style={{ height: "40px" }}
+          style={{ height: "50px", width: "50px", borderRadius: "50%"}}
         />
         <div className="visitor-count">Visitors: {visitorCount}</div>
       </div>

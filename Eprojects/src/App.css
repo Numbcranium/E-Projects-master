@@ -5,6 +5,12 @@ body {
   background-color: whitesmoke;
   color: #333;
 }
+.logo-visitor>img{
+  background-image: url(../src/assets/WhatsApp\ Image\ 2025-06-04\ at\ 12.54.46_50e0927d.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .homepage{
     height: 100vh;
@@ -12,6 +18,11 @@ body {
     padding-left: 130px;
     display: flex;
     flex-direction: column;
+    background-image: url(../src/assets/traffic-tower-bridge-bridge-sunset-wallpaper-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
     justify-content: center;
     /* position: relative;
     overflow: hidden; */
@@ -20,6 +31,8 @@ body {
     padding-top: 60px;
     width: 400px;
     font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .homepage p{
     width: 600px;
@@ -37,8 +50,8 @@ header.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: lightcyan;
-  color: #004080;
+  background-color: transparent;
+  color: white;
   padding: 10px 20px;
   position: fixed;
   top: 0;
@@ -55,15 +68,7 @@ header.header {
   box-shadow: none;
 }
 
-.video-background{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
-}
+
 
 /* Remove advertisement section styles */
 
