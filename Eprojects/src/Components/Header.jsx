@@ -1,6 +1,8 @@
 import React from "react";
+import visitorCount from "./VisitorCount"
+import VisitorCount from "./VisitorCount";
 
-const Header = ({ visitorCount, toggleSidebar }) => {
+const Header = ({ toggleSidebar }) => {
   return (
     <header className="header">
       <button className="sidebar-toggle" onClick={toggleSidebar} aria-label="Toggle menu">
@@ -13,7 +15,7 @@ const Header = ({ visitorCount, toggleSidebar }) => {
           className="logo"
           style={{ height: "50px", width: "50px", borderRadius: "50%"}}
         />
-        <div className="visitor-count">Visitors: {visitorCount}</div>
+        <div className="visitor-count">Visitors:< VisitorCount/> </div>
       </div>
     </header>
   );

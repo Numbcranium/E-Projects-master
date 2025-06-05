@@ -2,6 +2,7 @@ import React from "react";
 import Homepage from "./Components/Homepage";
 import Header from "./Components/Header";
 import Menu from "./Components/Menu";
+import visitorCount from "./Components/VisitorCount";
 import BridgeSection from "./Components/BridgeSection";
 import Gallery from "./Components/Gallery";
 import Sitemap from "./Components/Sitemap";
@@ -31,14 +32,9 @@ function App() {
   // State to track the currently selected menu item
   const [selectedMenu, setSelectedMenu] = React.useState("home");
   // State to track visitor count (simulated)
-  const [visitorCount, setVisitorCount] = React.useState(0);
+
   // State to control sidebar open/close
   const [sidebarOpen, setSidebarOpen] = React.useState(false);
-
-  // Effect to simulate visitor count increment on mount
-  React.useEffect(() => {
-    setVisitorCount((count) => count + 1);
-  }, []);
 
   // Handler for menu item selection
   const handleSelectMenu = (key) => {
