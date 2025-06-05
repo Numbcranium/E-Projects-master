@@ -197,8 +197,8 @@
         "url": "https://en.wikipedia.org/wiki/Sydney_Harbour_Bridge"
       }
     ]
-  }
-  ,{
+  },
+  {
     "id": "bridge-006",
     "name": "Millau Viaduct",
     "location": {
@@ -221,8 +221,8 @@
     },
     "description": "Millau Viaduct is a remarkable suspension bridge located in Millau, France.",
     "images": [
-      "images/millau_viaduct_1.jpg",
-      "images/millau_viaduct_2.jpg"
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Millau_Viaduct_2004-07-15.jpg/1280px-Millau_Viaduct_2004-07-15.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Millau_Viaduct_2004-07-15_2.jpg/1280px-Millau_Viaduct_2004-07-15_2.jpg"
     ],
     "history": "The Millau Viaduct was constructed as a marvel of its time and continues to draw attention today.",
     "facts": [
@@ -1009,8 +1009,8 @@
     },
     "description": "Millau Viaduct is a remarkable arch bridge located in Millau, France.",
     "images": [
-      "images/millau_viaduct_1.jpg",
-      "images/millau_viaduct_2.jpg"
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Millau_Viaduct_2004-07-15.jpg/1280px-Millau_Viaduct_2004-07-15.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Millau_Viaduct_2004-07-15_2.jpg/1280px-Millau_Viaduct_2004-07-15_2.jpg"
     ],
     "history": "The Millau Viaduct was constructed as a marvel of its time and continues to draw attention today.",
     "facts": [
