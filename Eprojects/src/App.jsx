@@ -7,6 +7,7 @@ import BridgeSection from "./Components/BridgeSection";
 import Gallery from "./Components/Gallery";
 import Sitemap from "./Components/Sitemap";
 import Footer from "./Components/Footer";
+import ReviewCarousel from "./Components/ReviewCarousel";
 import "./App.css";
 
 // Menu items for sidebar navigation
@@ -62,7 +63,12 @@ function App() {
       {/* Main content area */}
       <main className="main-content fullpage">
         {selectedMenu === "home" ? (
-          <Homepage />
+          <>
+            <Homepage />
+            <section className="review-section" style={{ marginTop: "2rem" }}>
+              <ReviewCarousel />
+            </section>
+          </>
         ) : [
           "historical",
           "highlevel",
