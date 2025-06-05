@@ -15,7 +15,6 @@ body {
 .homepage{
     height: 120vh;
     width: inherit;
-    padding-left: 60px;
     display: flex;
     flex-direction: column;
     background-image: url(../src/assets/traffic-tower-bridge-bridge-sunset-wallpaper-preview.png);
@@ -30,6 +29,7 @@ body {
 .homepage h1{
     padding-top: 100px;
     width: 400px;
+    margin-left: 60px;
     font-size: 40px;
     font-weight: bolder;
      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -38,6 +38,7 @@ body {
 .homepage p{
     width: 550px;
     font-size: 20px;
+    margin-left: 60px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -155,7 +156,7 @@ main.main-content {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: stretch;
+  align-items: center;
   min-height: 100vh;
 }
 
@@ -230,29 +231,7 @@ main.main-content {
   white-space: nowrap;
 }
 
-/* Responsive */
 
-@media (max-width: 768px) {
-  .sidebar {
-    width: 200px;
-  }
-
-  main.main-content {
-    margin-left: 0;
-    padding: 15px;
-  }
-
-  .bridge-list,
-  .gallery-section .gallery-grid {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .bridge-card,
-  .gallery-image {
-    width: 90%;
-  }
-}
 
 /* Review Carousel Styles */
 .review-carousel {
