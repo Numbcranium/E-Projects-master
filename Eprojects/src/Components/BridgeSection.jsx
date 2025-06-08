@@ -82,7 +82,19 @@ const BridgeSection = ({ sectionTitle }) => {
       </div>
       <div className="bridge-list">
         {currentBridges.map((bridge) => (
-          <div key={bridge.id} className="bridge-card"   style={{ backgroundImage: `url(${bridge.images[0]})`, backgroundPosition: "center", backgroundSize: "cover"}}>
+          <div
+            key={bridge.id}
+            className="bridge-card"
+            style={{
+              backgroundImage: `url(${bridge.images[0]})`,
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+              cursor: "pointer",
+            }}
+            onClick={() => {
+              window.location.href = `/bridge/${bridge.id}`;
+            }}
+          >
             <h4>{bridge.name}</h4>
             <p>{bridge.description}</p>
           </div>

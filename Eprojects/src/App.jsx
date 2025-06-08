@@ -1,4 +1,5 @@
 import React from "react";
+import { Routes, Route, useNavigate } from "react-router-dom";
 import Homepage from "./Components/Homepage";
 import Header from "./Components/Header";
 import Menu from "./Components/Menu";
@@ -8,6 +9,8 @@ import Gallery from "./Components/Gallery";
 import Sitemap from "./Components/Sitemap";
 import Footer from "./Components/Footer";
 import ReviewCarousel from "./Components/ReviewCarousel";
+import BridgeDetail from "./Components/BridgeDetail";
+import FAQ from "./Components/FAQ";
 import "./App.css";
 
 // Menu items for sidebar navigation
@@ -24,35 +27,27 @@ const menuItems = [
   { key: "sitemap", label: "Site Map" },
   { key: "gallery", label: "Gallery" },
   { key: "feedback", label: "Feedback" },
-  { key: "aboutus", label: "About Us" },
-  { key: "faq", label: "FAQ" },
-  { key: "contactus", label: "Contact Us" }
+  { key: "faq", label: "FAQ" }
 ];
 
 function App() {
-  // State to track the currently selected menu item
   const [selectedMenu, setSelectedMenu] = React.useState("home");
-  // State to track visitor count (simulated)
-
-  // State to control sidebar open/close
   const [sidebarOpen, setSidebarOpen] = React.useState(false);
+  const navigate = useNavigate();
 
-  // Handler for menu item selection
   const handleSelectMenu = (key) => {
     setSelectedMenu(key);
-    setSidebarOpen(false); // close sidebar on menu select
+    setSidebarOpen(false);
+    navigate(key === "home" ? "/" : `/${key}`);
   };
 
-  // Toggle sidebar open/close state
   const toggleSidebar = () => {
     setSidebarOpen(!sidebarOpen);
   };
 
   return (
     <>
-      {/* Header with logo and visitor count */}
       <Header visitorCount={visitorCount} toggleSidebar={toggleSidebar} />
-      {/* Sidebar menu */}
       <Menu
         menuItems={menuItems}
         selectedMenu={selectedMenu}
@@ -60,46 +55,29 @@ function App() {
         sidebarOpen={sidebarOpen}
         toggleSidebar={toggleSidebar}
       />
-      {/* Main content area */}
       <main className="main-content fullpage">
-        {selectedMenu === "home" ? (
-          <>
-            <Homepage />
-            <section className="review-section" style={{ marginTop: "2rem" }}>
-              <ReviewCarousel />
-            </section>
-          </>
-        ) : [
-          "historical",
-          "highlevel",
-          "iconic",
-          "modern",
-          "longest",
-          "tallest",
-          "highest",
-          "oldest",
-        ].includes(selectedMenu) ? (
-          <BridgeSection sectionTitle={menuItems.find((item) => item.key === selectedMenu)?.label} />
-        ) : selectedMenu === "gallery" ? (
-          <Gallery />
-        ) : selectedMenu === "feedback" ? (
-          <FeedbackComponent />
-        ) : selectedMenu === "aboutus" ? (
-          <AboutUs />
-        ) : selectedMenu === "contactus" ? (
-          <ContactUs />
-        ) : selectedMenu === "sitemap" ? (
-          <Sitemap />
-        ) : selectedMenu === "faq" ? (
-          <FAQ />
-        ) : (
-          <>
-            <h2>{menuItems.find((item) => item.key === selectedMenu)?.label}</h2>
-            <p>Content for {selectedMenu} will be displayed here.</p>
-          </>
-        )}
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/bridge/:id" element={<BridgeDetail />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/sitemap" element={<Sitemap />} />
+          <Route path="/faq" element={<FAQ />} />
+          <Route
+            path="/:category"
+            element={<BridgeSection sectionTitle={menuItems.find((item) => item.key === selectedMenu)?.label} />}
+          />
+          <Route
+            path="*"
+            element={
+              <>
+                <h2>{menuItems.find((item) => item.key === selectedMenu)?.label}</h2>
+                <p>Content for {selectedMenu} will be displayed here.</p>
+              </>
+            }
+          />
+        </Routes>
       </main>
-      {/* Footer with scrolling ticker */}
+      {selectedMenu === "home" && <ReviewCarousel />}
       <Footer />
     </>
   );
