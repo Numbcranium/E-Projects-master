@@ -113,28 +113,49 @@ const BridgeDetail = () => {
     <div
       className="bridge-detail"
       style={{
-        backgroundImage: `url(${bridge.images[0]})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
+        display: "flex",
         minHeight: "100vh",
-        color: "white",
         padding: "2rem",
+        color: "black",
+        gap: "2rem",
       }}
     >
-      <h1>{bridge.name}</h1>
-      <p>{bridge.description}</p>
-      <h2>Transport Options</h2>
-      {userLocation ? (
-        <ul>
-          {transportOptions.map((option) => (
-            <li key={option.mode}>
-              {option.mode}: {option.time} minutes
-            </li>
-          ))}
-        </ul>
-      ) : (
-        <p>Unable to determine your location to show transport options.</p>
-      )}
+      <div
+        className="bridge-image"
+        style={{
+          flex: "1",
+          height: "50vh",
+          borderRadius: "20px 0 0 20px",
+          backgroundImage: `url(${bridge.images[0]})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      />
+      <div
+        className="bridge-info"
+        style={{
+          flex: "1",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          padding: "1rem",
+        }}
+      >
+        <h1>{bridge.name}</h1>
+        <p>{bridge.description}</p>
+        <h2>Transport Options</h2>
+        {userLocation ? (
+          <ul>
+            {transportOptions.map((option) => (
+              <li key={option.mode}>
+                {option.mode}: {option.time} minutes
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p>Unable to determine your location to show transport options.</p>
+        )}
+      </div>
     </div>
   );
 };
