@@ -241,6 +241,12 @@ main.main-content {
 
 
 /* Gallery */
+.gallery-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .gallery-section .gallery-grid {
   display: flex;
   flex-wrap: wrap;
