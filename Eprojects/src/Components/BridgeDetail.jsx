@@ -110,39 +110,55 @@ const BridgeDetail = () => {
   }
 
   return (
-    <div
-      className="bridge-detail"
-      style={{
-        display: "flex",
-        minHeight: "100vh",
-        padding: "2rem",
-        color: "black",
-        gap: "2rem",
-      }}
-    >
+    <>
       <div
-        className="bridge-image"
+        className="bridge-detail"
         style={{
-          flex: "1",
-          height: "50vh",
-          borderRadius: "20px 0 0 20px",
-          backgroundImage: `url(${bridge.images[0]})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      />
-      <div
-        className="bridge-info"
-        style={{
-          flex: "1",
           display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          padding: "1rem",
+          minHeight: "100vh",
+          padding: "2rem",
+          color: "black",
+          gap: "2rem",
         }}
       >
-        <h1>{bridge.name}</h1>
-        <p>{bridge.description}</p>
+        <div
+          className="bridge-image"
+          style={{
+            width: "45vw",
+            marginTop:'5rem',
+            height: "55vh",
+            borderRadius: "10px 10px 10px 20px",
+            backgroundImage: `url(${bridge.images[0]})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        />
+        <div
+          className="bridge-info"
+          style={{
+            flex: "1",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            padding: "1rem",
+          }}
+        >
+          <h1>{bridge.name}</h1>
+          <p>{bridge.description}</p>
+        </div>
+      </div>
+      <div
+        className="transport-options"
+        style={{
+          marginTop: "-200px",
+          padding: "1rem",
+          backgroundColor: "#f0f0f0",
+          borderRadius: "10px",
+          color: "black",
+          width:"90vw",
+          height:"fit-content",
+        }}
+      >
         <h2>Transport Options</h2>
         {userLocation ? (
           <ul>
@@ -156,7 +172,7 @@ const BridgeDetail = () => {
           <p>Unable to determine your location to show transport options.</p>
         )}
       </div>
-    </div>
+    </>
   );
 };
 
