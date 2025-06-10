@@ -12,6 +12,7 @@ const BridgeDetail = () => {
   const [bridge, setBridge] = useState(null);
   const [userLocation, setUserLocation] = useState(null);
   const [transportOptions, setTransportOptions] = useState([]);
+  const [distanceKm, setDistanceKm] = useState(null);
 
   useEffect(() => {
     // Fetch bridge data by id
@@ -102,6 +103,7 @@ const BridgeDetail = () => {
         ];
       }
       setTransportOptions(options);
+      setDistanceKm(distanceKm);
     }
   }, [bridge, userLocation]);
 
@@ -162,11 +164,17 @@ const BridgeDetail = () => {
         <h2>Transport Options</h2>
         {userLocation ? (
           <ul>
-            {transportOptions.map((option) => (
-              <li key={option.mode}>
-                {option.mode}: {option.time} minutes
-              </li>
-            ))}
+            {transportOptions.map((option) => {
+              const hours = Math.floor(option.time / 60);
+              const minutes = option.time % 60;
+              return (
+                <li key={option.mode}>
+                {option.mode}: Distance: {distanceKm ? `${distanceKm.toFixed(2)} km` : "N/A"} - Duration:{" "}
+                {hours > 0 ? `${hours}h ` : ""}
+                {minutes}m
+                </li>
+              );
+            })}
           </ul>
         ) : (
           <p>Unable to determine your location to show transport options.</p>
