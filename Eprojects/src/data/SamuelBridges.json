@@ -1,0 +1,3948 @@
+[
+  {
+    "id": "bridge-001",
+    "name": "Golden Gate Bridge",
+    "location": {
+      "city": "San Francisco",
+      "country": "USA",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": 85.6776,
+        "longitude": 86.8024
+      }
+    },
+    "categories": [
+      "High-Level Achievements",
+      "Longest",
+      "Oldest"
+    ],
+    "attributes": {
+      "length_meters": 866,
+      "height_meters": 241,
+      "opened_year": 1869,
+      "type": "Truss"
+    },
+    "description": "Golden Gate Bridge is a remarkable truss bridge located in San Francisco, USA.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/0c/GoldenGateBridge-001.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/2c/Golden_Gate_Bridge_in_Fog.jpg"
+    ],
+    "history": "The Golden Gate Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 5 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Golden_Gate_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-002",
+    "name": "Tower Bridge",
+    "location": {
+      "city": "London",
+      "country": "UK",
+      "continent": "Australia",
+      "coordinates": {
+        "latitude": -84.6693,
+        "longitude": 163.8284
+      }
+    },
+    "categories": [
+      "Oldest",
+      "Tallest"
+    ],
+    "attributes": {
+      "length_meters": 3852,
+      "height_meters": 262,
+      "opened_year": 1935,
+      "type": "Suspension"
+    },
+    "description": "Tower Bridge is a remarkable suspension bridge located in London, UK.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/59/Tower_Bridge_at_Dawn.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tower_Bridge_from_Shoshana.jpg"
+    ],
+    "history": "The Tower Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a tourist attraction.",
+      "It spans over 1 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tower_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-003",
+    "name": "Brooklyn Bridge",
+    "location": {
+      "city": "New York",
+      "country": "USA",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": 29.53,
+        "longitude": 35.1838
+      }
+    },
+    "categories": [
+      "Historical Great Bridges",
+      "Iconic",
+      "High-Level Achievements"
+    ],
+    "attributes": {
+      "length_meters": 3535,
+      "height_meters": 341,
+      "opened_year": 1864,
+      "type": "Cable-stayed"
+    },
+    "description": "Brooklyn Bridge is a remarkable cable-stayed bridge located in New York, USA.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Brooklyn_Bridge_Manhattan.jpg/1280px-Brooklyn_Bridge_Manhattan.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Brooklyn_Bridge_and_Manhattan_Skyline.jpg/1280px-Brooklyn_Bridge_and_Manhattan_Skyline.jpg"
+    ],
+    "history": "The Brooklyn Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 5 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Brooklyn_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-004",
+    "name": "Akashi Kaiky\u014d Bridge",
+    "location": {
+      "city": "Kobe",
+      "country": "Japan",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": 69.9768,
+        "longitude": -138.4783
+      }
+    },
+    "categories": [
+      "Tallest",
+      "Oldest",
+      "Longest"
+    ],
+    "attributes": {
+      "length_meters": 1182,
+      "height_meters": 101,
+      "opened_year": 1986,
+      "type": "Truss"
+    },
+    "description": "Akashi Kaiky\u014d Bridge is a remarkable truss bridge located in Kobe, Japan.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Akashi_Kaikyo_Bridge_Maiko_Hyogo_Japan_%2819175872663%29.jpg/1280px-Akashi_Kaikyo_Bridge_Maiko_Hyogo_Japan_%2819175872663%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/15/Akashi_Kaiky%C5%8D_Bridge_from_Maiko_Marine_Promenade.jpg"
+    ],
+    "history": "The Akashi Kaiky\u014d Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a technical masterpiece.",
+      "It spans over 2 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Akashi_Kaiky\u014d_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-005",
+    "name": "Sydney Harbour Bridge",
+    "location": {
+      "city": "Sydney",
+      "country": "Australia",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": -77.7467,
+        "longitude": 34.0191
+      }
+    },
+    "categories": [
+      "Iconic",
+      "Oldest",
+      "Longest"
+    ],
+    "attributes": {
+      "length_meters": 866,
+      "height_meters": 144,
+      "opened_year": 1986,
+      "type": "Truss"
+    },
+    "description": "Sydney Harbour Bridge is a remarkable truss bridge located in Sydney, Australia.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/de/Sydney_%28AU%29%2C_Harbour_Bridge_--_2019_--_2179.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/de/Sydney_%28AU%29%2C_Harbour_Bridge_--_2019_--_2179.jpg"
+    ],
+    "history": "The Sydney Harbour Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a tourist attraction.",
+      "It spans over 5 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sydney_Harbour_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-006",
+    "name": "Millau Viaduct",
+    "location": {
+      "city": "Millau",
+      "country": "France",
+      "continent": "Asia",
+      "coordinates": {
+        "latitude": -46.024,
+        "longitude": -142.0703
+      }
+    },
+    "categories": [
+      "Historical Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 1713,
+      "height_meters": 326,
+      "opened_year": 1897,
+      "type": "Suspension"
+    },
+    "description": "Millau Viaduct is a remarkable suspension bridge located in Millau, France.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Millau_Viaduct#/media/File:ViaducdeMillau.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Millau_Viaduct_2004-07-15_2.jpg/1280px-Millau_Viaduct_2004-07-15_2.jpg"
+    ],
+    "history": "The Millau Viaduct was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a technical masterpiece.",
+      "It spans over 4 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Millau_Viaduct"
+      }
+    ]
+  },
+  {
+    "id": "bridge-007",
+    "name": "Ponte Vecchio",
+    "location": {
+      "city": "Florence",
+      "country": "Italy",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": -23.5848,
+        "longitude": -129.7984
+      }
+    },
+    "categories": [
+      "Oldest",
+      "Tallest"
+    ],
+    "attributes": {
+      "length_meters": 2966,
+      "height_meters": 318,
+      "opened_year": 1885,
+      "type": "Cable-stayed"
+    },
+    "description": "Ponte Vecchio is a remarkable cable-stayed bridge located in Florence, Italy.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Ponte_Vecchio#/media/File:Ponte_Vecchio_from_Ponte_alle_Grazie.jpg",
+      "images/ponte_vecchio_2.jpg"
+    ],
+    "history": "The Ponte Vecchio was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 1 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ponte_Vecchio"
+      }
+    ]
+  },
+  {
+    "id": "bridge-008",
+    "name": "Charles Bridge",
+    "location": {
+      "city": "Prague",
+      "country": "Czech Republic",
+      "continent": "North America",
+      "coordinates": {
+        "latitude": 59.4929,
+        "longitude": 102.7521
+      }
+    },
+    "categories": [
+      "High-Level Achievements",
+      "Modern Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 2237,
+      "height_meters": 332,
+      "opened_year": 2001,
+      "type": "Suspension"
+    },
+    "description": "Charles Bridge is a remarkable suspension bridge located in Prague, Czech Republic.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Charles_Bridge#/media/File:Charles_Bridge_-_Prague,_Czech_Republic_-_panoramio.jpg",
+      "images/charles_bridge_2.jpg"
+    ],
+    "history": "The Charles Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 3 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Charles_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-009",
+    "name": "Chapel Bridge",
+    "location": {
+      "city": "Lucerne",
+      "country": "Switzerland",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": 19.2353,
+        "longitude": 19.3857
+      }
+    },
+    "categories": [
+      "Oldest",
+      "Longest",
+      "Modern Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 2435,
+      "height_meters": 103,
+      "opened_year": 1952,
+      "type": "Arch"
+    },
+    "description": "Chapel Bridge is a remarkable arch bridge located in Lucerne, Switzerland.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Kapellbr%C3%BCcke#/media/File:Kapellbruecke.JPG",
+      "images/chapel_bridge_2.jpg"
+    ],
+    "history": "The Chapel Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a technical masterpiece.",
+      "It spans over 5 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Chapel_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-010",
+    "name": "Rialto Bridge",
+    "location": {
+      "city": "Venice",
+      "country": "Italy",
+      "continent": "Asia",
+      "coordinates": {
+        "latitude": -60.4143,
+        "longitude": 83.1654
+      }
+    },
+    "categories": [
+      "Longest",
+      "Iconic",
+      "Historical Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 3579,
+      "height_meters": 227,
+      "opened_year": 2014,
+      "type": "Truss"
+    },
+    "description": "Rialto Bridge is a remarkable truss bridge located in Venice, Italy.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Rialto_Bridge#/media/File:Ponte_di_Rialto_facciata_ovest_di_sera.jpg",
+      "images/rialto_bridge_2.jpg"
+    ],
+    "history": "The Rialto Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 5 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Rialto_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-011",
+    "name": "Forth Bridge",
+    "location": {
+      "city": "Edinburgh",
+      "country": "Scotland",
+      "continent": "Asia",
+      "coordinates": {
+        "latitude": 75.3413,
+        "longitude": -151.8856
+      }
+    },
+    "categories": [
+      "Iconic",
+      "Tallest",
+      "Historical Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 1738,
+      "height_meters": 72,
+      "opened_year": 1926,
+      "type": "Cable-stayed"
+    },
+    "description": "Forth Bridge is a remarkable cable-stayed bridge located in Edinburgh, Scotland.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e0/Forth_Bridge_2022.jpg",
+      "images/forth_bridge_2.jpg"
+    ],
+    "history": "The Forth Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a tourist attraction.",
+      "It spans over 3 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Forth_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-012",
+    "name": "Bosphorus Bridge",
+    "location": {
+      "city": "Istanbul",
+      "country": "Turkey",
+      "continent": "Asia",
+      "coordinates": {
+        "latitude": -43.3344,
+        "longitude": -110.4886
+      }
+    },
+    "categories": [
+      "High-Level Achievements",
+      "Highest"
+    ],
+    "attributes": {
+      "length_meters": 1231,
+      "height_meters": 201,
+      "opened_year": 1872,
+      "type": "Suspension"
+    },
+    "description": "Bosphorus Bridge is a remarkable suspension bridge located in Istanbul, Turkey.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/53/Bosphorus_Bridge_%28235499411%29.jpegimages/bosphorus_bridge_1.jpg",
+      "images/bosphorus_bridge_2.jpg"
+    ],
+    "history": "The Bosphorus Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 4 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bosphorus_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-013",
+    "name": "Helix Bridge",
+    "location": {
+      "city": "Singapore",
+      "country": "Singapore",
+      "continent": "Australia",
+      "coordinates": {
+        "latitude": -27.0419,
+        "longitude": 102.7835
+      }
+    },
+    "categories": [
+      "Historical Great Bridges",
+      "High-Level Achievements",
+      "Iconic"
+    ],
+    "attributes": {
+      "length_meters": 2102,
+      "height_meters": 141,
+      "opened_year": 1914,
+      "type": "Cable-stayed"
+    },
+    "description": "Helix Bridge is a remarkable cable-stayed bridge located in Singapore, Singapore.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Helix_Bridge#/media/File:Double-Helix-Bridge.jpg",
+      "images/helix_bridge_2.jpg"
+    ],
+    "history": "The Helix Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a technical masterpiece.",
+      "It spans over 1 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Helix_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-014",
+    "name": "Nanpu Bridge",
+    "location": {
+      "city": "Shanghai",
+      "country": "China",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": 56.8301,
+        "longitude": -64.9971
+      }
+    },
+    "categories": [
+      "Longest",
+      "Modern Great Bridges",
+      "Historical Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 3760,
+      "height_meters": 204,
+      "opened_year": 1971,
+      "type": "Suspension"
+    },
+    "description": "Nanpu Bridge is a remarkable suspension bridge located in Shanghai, China.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Nanpu_Bridge#/media/File:Nanpu_Bridge_2.jpg",
+      "images/nanpu_bridge_2.jpg"
+    ],
+    "history": "The Nanpu Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a tourist attraction.",
+      "It spans over 2 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Nanpu_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-015",
+    "name": "Tsing Ma Bridge",
+    "location": {
+      "city": "Hong Kong",
+      "country": "China",
+      "continent": "North America",
+      "coordinates": {
+        "latitude": 81.3109,
+        "longitude": -114.8694
+      }
+    },
+    "categories": [
+      "High-Level Achievements"
+    ],
+    "attributes": {
+      "length_meters": 2205,
+      "height_meters": 279,
+      "opened_year": 1993,
+      "type": "Cable-stayed"
+    },
+    "description": "Tsing Ma Bridge is a remarkable cable-stayed bridge located in Hong Kong, China.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Tsing_Ma_Bridge#/media/File:Tsing_Ma_Bridge_2.jpg",
+      "images/tsing_ma_bridge_2.jpg"
+    ],
+    "history": "The Tsing Ma Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 4 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tsing_Ma_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-016",
+    "name": "Vasco da Gama Bridge",
+    "location": {
+      "city": "Lisbon",
+      "country": "Portugal",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": 8.0378,
+        "longitude": -66.1348
+      }
+    },
+    "categories": [
+      "Modern Great Bridges",
+      "High-Level Achievements"
+    ],
+    "attributes": {
+      "length_meters": 2618,
+      "height_meters": 254,
+      "opened_year": 2017,
+      "type": "Truss"
+    },
+    "description": "Vasco da Gama Bridge is a remarkable truss bridge located in Lisbon, Portugal.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Vasco_da_Gama_Bridge#/media/File:Vasco_da_Gama_Bridge_aerial_view.jpg",
+      "images/vasco_da_gama_bridge_2.jpg"
+    ],
+    "history": "The Vasco da Gama Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a tourist attraction.",
+      "It spans over 1 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Vasco_da_Gama_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-017",
+    "name": "\u00d8resund Bridge",
+    "location": {
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": -75.3525,
+        "longitude": 50.2316
+      }
+    },
+    "categories": [
+      "Longest",
+      "Oldest",
+      "High-Level Achievements"
+    ],
+    "attributes": {
+      "length_meters": 1015,
+      "height_meters": 248,
+      "opened_year": 1952,
+      "type": "Suspension"
+    },
+    "description": "\u00d8resund Bridge is a remarkable suspension bridge located in Copenhagen, Denmark.",
+    "images": [
+      "https://en.wikipedia.org/wiki/%C3%98resund_Bridge#/media/File:%C3%98resund_Bridge_from_the_air_in_September_2015.jpg",
+      "images/\u00f8resund_bridge_2.jpg"
+    ],
+    "history": "The \u00d8resund Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a technical masterpiece.",
+      "It spans over 4 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/\u00d8resund_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-018",
+    "name": "Duge Bridge",
+    "location": {
+      "city": "Guizhou",
+      "country": "China",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": -40.8972,
+        "longitude": -67.3806
+      }
+    },
+    "categories": [
+      "Historical Great Bridges",
+      "Longest",
+      "Tallest"
+    ],
+    "attributes": {
+      "length_meters": 846,
+      "height_meters": 118,
+      "opened_year": 1893,
+      "type": "Beam"
+    },
+    "description": "Duge Bridge is a remarkable beam bridge located in Guizhou, China.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Duge_Bridge#/media/File:Duge_Bridge.jpg",
+      "images/duge_bridge_2.jpg"
+    ],
+    "history": "The Duge Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a tourist attraction.",
+      "It spans over 2 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Duge_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-019",
+    "name": "Coronado Bridge",
+    "location": {
+      "city": "San Diego",
+      "country": "USA",
+      "continent": "Asia",
+      "coordinates": {
+        "latitude": 80.9031,
+        "longitude": 75.2809
+      }
+    },
+    "categories": [
+      "Tallest",
+      "Historical Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 1971,
+      "height_meters": 274,
+      "opened_year": 1912,
+      "type": "Beam"
+    },
+    "description": "Coronado Bridge is a remarkable beam bridge located in San Diego, USA.",
+    "images": [
+      "https://en.wikipedia.org/wiki/San_Diego%E2%80%93Coronado_Bridge#/media/File:San_Diego-Coronado_Bridge_by_Frank_Mckenna.jpg",
+      "images/coronado_bridge_2.jpg"
+    ],
+    "history": "The Coronado Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 1 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Coronado_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-020",
+    "name": "George Washington Bridge",
+    "location": {
+      "city": "New Jersey",
+      "country": "USA",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": -38.7637,
+        "longitude": -36.7779
+      }
+    },
+    "categories": [
+      "High-Level Achievements",
+      "Longest",
+      "Modern Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 2651,
+      "height_meters": 81,
+      "opened_year": 1939,
+      "type": "Arch"
+    },
+    "description": "George Washington Bridge is a remarkable arch bridge located in New Jersey, USA.",
+    "images": [
+      "https://en.wikipedia.org/wiki/George_Washington_Bridge#/media/File:George_Washington_Bridge_from_New_Jersey-edit.jpg",
+      "images/george_washington_bridge_2.jpg"
+    ],
+    "history": "The George Washington Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 2 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/George_Washington_Bridge"
+      }
+    ]
+  },
+   {"id": "bridge-021",
+    "name": "Golden Gate Bridge",
+    "location": {
+      "city": "San Francisco",
+      "country": "USA",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": 85.6776,
+        "longitude": 86.8024
+      }
+    },
+    "categories": [
+      "High-Level Achievements",
+      "Longest",
+      "Oldest"
+    ],
+    "attributes": {
+      "length_meters": 866,
+      "height_meters": 241,
+      "opened_year": 1869,
+      "type": "Truss"
+    },
+    "description": "Golden Gate Bridge is a remarkable truss bridge located in San Francisco, USA.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/0c/GoldenGateBridge-001.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/2c/Golden_Gate_Bridge_in_Fog.jpg"
+    ],
+    "history": "The Golden Gate Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 5 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Golden_Gate_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-022",
+    "name": "Tower Bridge",
+    "location": {
+      "city": "London",
+      "country": "UK",
+      "continent": "Australia",
+      "coordinates": {
+        "latitude": -84.6693,
+        "longitude": 163.8284
+      }
+    },
+    "categories": [
+      "Oldest",
+      "Tallest"
+    ],
+    "attributes": {
+      "length_meters": 3852,
+      "height_meters": 262,
+      "opened_year": 1935,
+      "type": "Suspension"
+    },
+    "description": "Tower Bridge is a remarkable suspension bridge located in London, UK.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/59/Tower_Bridge_at_Dawn.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tower_Bridge_from_Shoshana.jpg"
+    ],
+    "history": "The Tower Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a tourist attraction.",
+      "It spans over 1 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tower_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-023",
+    "name": "Brooklyn Bridge",
+    "location": {
+      "city": "New York",
+      "country": "USA",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": 29.53,
+        "longitude": 35.1838
+      }
+    },
+    "categories": [
+      "Historical Great Bridges",
+      "Iconic",
+      "High-Level Achievements"
+    ],
+    "attributes": {
+      "length_meters": 3535,
+      "height_meters": 341,
+      "opened_year": 1864,
+      "type": "Cable-stayed"
+    },
+    "description": "Brooklyn Bridge is a remarkable cable-stayed bridge located in New York, USA.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Brooklyn_Bridge_Manhattan.jpg/1280px-Brooklyn_Bridge_Manhattan.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Brooklyn_Bridge_and_Manhattan_Skyline.jpg/1280px-Brooklyn_Bridge_and_Manhattan_Skyline.jpg"
+    ],
+    "history": "The Brooklyn Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 5 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Brooklyn_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-024",
+    "name": "Akashi Kaiky\u014d Bridge",
+    "location": {
+      "city": "Kobe",
+      "country": "Japan",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": 69.9768,
+        "longitude": -138.4783
+      }
+    },
+    "categories": [
+      "Tallest",
+      "Oldest",
+      "Longest"
+    ],
+    "attributes": {
+      "length_meters": 1182,
+      "height_meters": 101,
+      "opened_year": 1986,
+      "type": "Truss"
+    },
+    "description": "Akashi Kaiky\u014d Bridge is a remarkable truss bridge located in Kobe, Japan.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Akashi_Kaikyo_Bridge_Maiko_Hyogo_Japan_%2819175872663%29.jpg/1280px-Akashi_Kaikyo_Bridge_Maiko_Hyogo_Japan_%2819175872663%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/15/Akashi_Kaiky%C5%8D_Bridge_from_Maiko_Marine_Promenade.jpg"
+    ],
+    "history": "The Akashi Kaiky\u014d Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a technical masterpiece.",
+      "It spans over 2 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Akashi_Kaiky\u014d_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-025",
+    "name": "Sydney Harbour Bridge",
+    "location": {
+      "city": "Sydney",
+      "country": "Australia",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": -77.7467,
+        "longitude": 34.0191
+      }
+    },
+    "categories": [
+      "Iconic",
+      "Oldest",
+      "Longest"
+    ],
+    "attributes": {
+      "length_meters": 866,
+      "height_meters": 144,
+      "opened_year": 1986,
+      "type": "Truss"
+    },
+    "description": "Sydney Harbour Bridge is a remarkable truss bridge located in Sydney, Australia.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/de/Sydney_%28AU%29%2C_Harbour_Bridge_--_2019_--_2179.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/de/Sydney_%28AU%29%2C_Harbour_Bridge_--_2019_--_2179.jpg"
+    ],
+    "history": "The Sydney Harbour Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a tourist attraction.",
+      "It spans over 5 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sydney_Harbour_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-026",
+    "name": "Millau Viaduct",
+    "location": {
+      "city": "Millau",
+      "country": "France",
+      "continent": "Asia",
+      "coordinates": {
+        "latitude": -46.024,
+        "longitude": -142.0703
+      }
+    },
+    "categories": [
+      "Historical Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 1713,
+      "height_meters": 326,
+      "opened_year": 1897,
+      "type": "Suspension"
+    },
+    "description": "Millau Viaduct is a remarkable suspension bridge located in Millau, France.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Millau_Viaduct#/media/File:ViaducdeMillau.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Millau_Viaduct_2004-07-15_2.jpg/1280px-Millau_Viaduct_2004-07-15_2.jpg"
+    ],
+    "history": "The Millau Viaduct was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a technical masterpiece.",
+      "It spans over 4 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Millau_Viaduct"
+      }
+    ]
+  },
+  {
+    "id": "bridge-027",
+    "name": "Ponte Vecchio",
+    "location": {
+      "city": "Florence",
+      "country": "Italy",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": -23.5848,
+        "longitude": -129.7984
+      }
+    },
+    "categories": [
+      "Oldest",
+      "Tallest"
+    ],
+    "attributes": {
+      "length_meters": 2966,
+      "height_meters": 318,
+      "opened_year": 1885,
+      "type": "Cable-stayed"
+    },
+    "description": "Ponte Vecchio is a remarkable cable-stayed bridge located in Florence, Italy.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Ponte_Vecchio#/media/File:Ponte_Vecchio_from_Ponte_alle_Grazie.jpg",
+      "images/ponte_vecchio_2.jpg"
+    ],
+    "history": "The Ponte Vecchio was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 1 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ponte_Vecchio"
+      }
+    ]
+  },
+  {
+    "id": "bridge-028",
+    "name": "Charles Bridge",
+    "location": {
+      "city": "Prague",
+      "country": "Czech Republic",
+      "continent": "North America",
+      "coordinates": {
+        "latitude": 59.4929,
+        "longitude": 102.7521
+      }
+    },
+    "categories": [
+      "High-Level Achievements",
+      "Modern Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 2237,
+      "height_meters": 332,
+      "opened_year": 2001,
+      "type": "Suspension"
+    },
+    "description": "Charles Bridge is a remarkable suspension bridge located in Prague, Czech Republic.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Charles_Bridge#/media/File:Charles_Bridge_-_Prague,_Czech_Republic_-_panoramio.jpg",
+      "images/charles_bridge_2.jpg"
+    ],
+    "history": "The Charles Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 3 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Charles_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-029",
+    "name": "Chapel Bridge",
+    "location": {
+      "city": "Lucerne",
+      "country": "Switzerland",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": 19.2353,
+        "longitude": 19.3857
+      }
+    },
+    "categories": [
+      "Oldest",
+      "Longest",
+      "Modern Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 2435,
+      "height_meters": 103,
+      "opened_year": 1952,
+      "type": "Arch"
+    },
+    "description": "Chapel Bridge is a remarkable arch bridge located in Lucerne, Switzerland.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Kapellbr%C3%BCcke#/media/File:Kapellbruecke.JPG",
+      "images/chapel_bridge_2.jpg"
+    ],
+    "history": "The Chapel Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a technical masterpiece.",
+      "It spans over 5 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Chapel_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-030",
+    "name": "Rialto Bridge",
+    "location": {
+      "city": "Venice",
+      "country": "Italy",
+      "continent": "Asia",
+      "coordinates": {
+        "latitude": -60.4143,
+        "longitude": 83.1654
+      }
+    },
+    "categories": [
+      "Longest",
+      "Iconic",
+      "Historical Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 3579,
+      "height_meters": 227,
+      "opened_year": 2014,
+      "type": "Truss"
+    },
+    "description": "Rialto Bridge is a remarkable truss bridge located in Venice, Italy.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Rialto_Bridge#/media/File:Ponte_di_Rialto_facciata_ovest_di_sera.jpg",
+      "images/rialto_bridge_2.jpg"
+    ],
+    "history": "The Rialto Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 5 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Rialto_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-031",
+    "name": "Forth Bridge",
+    "location": {
+      "city": "Edinburgh",
+      "country": "Scotland",
+      "continent": "Asia",
+      "coordinates": {
+        "latitude": 75.3413,
+        "longitude": -151.8856
+      }
+    },
+    "categories": [
+      "Iconic",
+      "Tallest",
+      "Historical Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 1738,
+      "height_meters": 72,
+      "opened_year": 1926,
+      "type": "Cable-stayed"
+    },
+    "description": "Forth Bridge is a remarkable cable-stayed bridge located in Edinburgh, Scotland.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e0/Forth_Bridge_2022.jpg",
+      "images/forth_bridge_2.jpg"
+    ],
+    "history": "The Forth Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a tourist attraction.",
+      "It spans over 3 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Forth_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-032",
+    "name": "Bosphorus Bridge",
+    "location": {
+      "city": "Istanbul",
+      "country": "Turkey",
+      "continent": "Asia",
+      "coordinates": {
+        "latitude": -43.3344,
+        "longitude": -110.4886
+      }
+    },
+    "categories": [
+      "High-Level Achievements",
+      "Highest"
+    ],
+    "attributes": {
+      "length_meters": 1231,
+      "height_meters": 201,
+      "opened_year": 1872,
+      "type": "Suspension"
+    },
+    "description": "Bosphorus Bridge is a remarkable suspension bridge located in Istanbul, Turkey.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/53/Bosphorus_Bridge_%28235499411%29.jpegimages/bosphorus_bridge_1.jpg",
+      "images/bosphorus_bridge_2.jpg"
+    ],
+    "history": "The Bosphorus Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 4 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bosphorus_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-033",
+    "name": "Helix Bridge",
+    "location": {
+      "city": "Singapore",
+      "country": "Singapore",
+      "continent": "Australia",
+      "coordinates": {
+        "latitude": -27.0419,
+        "longitude": 102.7835
+      }
+    },
+    "categories": [
+      "Historical Great Bridges",
+      "High-Level Achievements",
+      "Iconic"
+    ],
+    "attributes": {
+      "length_meters": 2102,
+      "height_meters": 141,
+      "opened_year": 1914,
+      "type": "Cable-stayed"
+    },
+    "description": "Helix Bridge is a remarkable cable-stayed bridge located in Singapore, Singapore.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Helix_Bridge#/media/File:Double-Helix-Bridge.jpg",
+      "images/helix_bridge_2.jpg"
+    ],
+    "history": "The Helix Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a technical masterpiece.",
+      "It spans over 1 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Helix_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-034",
+    "name": "Nanpu Bridge",
+    "location": {
+      "city": "Shanghai",
+      "country": "China",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": 56.8301,
+        "longitude": -64.9971
+      }
+    },
+    "categories": [
+      "Longest",
+      "Modern Great Bridges",
+      "Historical Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 3760,
+      "height_meters": 204,
+      "opened_year": 1971,
+      "type": "Suspension"
+    },
+    "description": "Nanpu Bridge is a remarkable suspension bridge located in Shanghai, China.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Nanpu_Bridge#/media/File:Nanpu_Bridge_2.jpg",
+      "images/nanpu_bridge_2.jpg"
+    ],
+    "history": "The Nanpu Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a tourist attraction.",
+      "It spans over 2 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Nanpu_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-035",
+    "name": "Tsing Ma Bridge",
+    "location": {
+      "city": "Hong Kong",
+      "country": "China",
+      "continent": "North America",
+      "coordinates": {
+        "latitude": 81.3109,
+        "longitude": -114.8694
+      }
+    },
+    "categories": [
+      "High-Level Achievements"
+    ],
+    "attributes": {
+      "length_meters": 2205,
+      "height_meters": 279,
+      "opened_year": 1993,
+      "type": "Cable-stayed"
+    },
+    "description": "Tsing Ma Bridge is a remarkable cable-stayed bridge located in Hong Kong, China.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Tsing_Ma_Bridge#/media/File:Tsing_Ma_Bridge_2.jpg",
+      "images/tsing_ma_bridge_2.jpg"
+    ],
+    "history": "The Tsing Ma Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 4 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tsing_Ma_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-036",
+    "name": "Vasco da Gama Bridge",
+    "location": {
+      "city": "Lisbon",
+      "country": "Portugal",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": 8.0378,
+        "longitude": -66.1348
+      }
+    },
+    "categories": [
+      "Modern Great Bridges",
+      "High-Level Achievements"
+    ],
+    "attributes": {
+      "length_meters": 2618,
+      "height_meters": 254,
+      "opened_year": 2017,
+      "type": "Truss"
+    },
+    "description": "Vasco da Gama Bridge is a remarkable truss bridge located in Lisbon, Portugal.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Vasco_da_Gama_Bridge#/media/File:Vasco_da_Gama_Bridge_aerial_view.jpg",
+      "images/vasco_da_gama_bridge_2.jpg"
+    ],
+    "history": "The Vasco da Gama Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a tourist attraction.",
+      "It spans over 1 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Vasco_da_Gama_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-037",
+    "name": "\u00d8resund Bridge",
+    "location": {
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": -75.3525,
+        "longitude": 50.2316
+      }
+    },
+    "categories": [
+      "Longest",
+      "Oldest",
+      "High-Level Achievements"
+    ],
+    "attributes": {
+      "length_meters": 1015,
+      "height_meters": 248,
+      "opened_year": 1952,
+      "type": "Suspension"
+    },
+    "description": "\u00d8resund Bridge is a remarkable suspension bridge located in Copenhagen, Denmark.",
+    "images": [
+      "https://en.wikipedia.org/wiki/%C3%98resund_Bridge#/media/File:%C3%98resund_Bridge_from_the_air_in_September_2015.jpg",
+      "images/\u00f8resund_bridge_2.jpg"
+    ],
+    "history": "The \u00d8resund Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a technical masterpiece.",
+      "It spans over 4 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/\u00d8resund_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-038",
+    "name": "Duge Bridge",
+    "location": {
+      "city": "Guizhou",
+      "country": "China",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": -40.8972,
+        "longitude": -67.3806
+      }
+    },
+    "categories": [
+      "Historical Great Bridges",
+      "Longest",
+      "Tallest"
+    ],
+    "attributes": {
+      "length_meters": 846,
+      "height_meters": 118,
+      "opened_year": 1893,
+      "type": "Beam"
+    },
+    "description": "Duge Bridge is a remarkable beam bridge located in Guizhou, China.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Duge_Bridge#/media/File:Duge_Bridge.jpg",
+      "images/duge_bridge_2.jpg"
+    ],
+    "history": "The Duge Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a tourist attraction.",
+      "It spans over 2 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Duge_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-039",
+    "name": "Coronado Bridge",
+    "location": {
+      "city": "San Diego",
+      "country": "USA",
+      "continent": "Asia",
+      "coordinates": {
+        "latitude": 80.9031,
+        "longitude": 75.2809
+      }
+    },
+    "categories": [
+      "Tallest",
+      "Historical Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 1971,
+      "height_meters": 274,
+      "opened_year": 1912,
+      "type": "Beam"
+    },
+    "description": "Coronado Bridge is a remarkable beam bridge located in San Diego, USA.",
+    "images": [
+      "https://en.wikipedia.org/wiki/San_Diego%E2%80%93Coronado_Bridge#/media/File:San_Diego-Coronado_Bridge_by_Frank_Mckenna.jpg",
+      "images/coronado_bridge_2.jpg"
+    ],
+    "history": "The Coronado Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 1 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Coronado_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-040",
+    "name": "George Washington Bridge",
+    "location": {
+      "city": "New Jersey",
+      "country": "USA",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": -38.7637,
+        "longitude": -36.7779
+      }
+    },
+    "categories": [
+      "High-Level Achievements",
+      "Longest",
+      "Modern Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 2651,
+      "height_meters": 81,
+      "opened_year": 1939,
+      "type": "Arch"
+    },
+    "description": "George Washington Bridge is a remarkable arch bridge located in New Jersey, USA.",
+    "images": [
+      "https://en.wikipedia.org/wiki/George_Washington_Bridge#/media/File:George_Washington_Bridge_from_New_Jersey-edit.jpg",
+      "images/george_washington_bridge_2.jpg"
+    ],
+    "history": "The George Washington Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 2 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/George_Washington_Bridge"
+      }
+    ]
+  },
+   {"id": "bridge-041",
+    "name": "Golden Gate Bridge",
+    "location": {
+      "city": "San Francisco",
+      "country": "USA",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": 85.6776,
+        "longitude": 86.8024
+      }
+    },
+    "categories": [
+      "High-Level Achievements",
+      "Longest",
+      "Oldest"
+    ],
+    "attributes": {
+      "length_meters": 866,
+      "height_meters": 241,
+      "opened_year": 1869,
+      "type": "Truss"
+    },
+    "description": "Golden Gate Bridge is a remarkable truss bridge located in San Francisco, USA.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/0c/GoldenGateBridge-001.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/2c/Golden_Gate_Bridge_in_Fog.jpg"
+    ],
+    "history": "The Golden Gate Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 5 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Golden_Gate_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-042",
+    "name": "Tower Bridge",
+    "location": {
+      "city": "London",
+      "country": "UK",
+      "continent": "Australia",
+      "coordinates": {
+        "latitude": -84.6693,
+        "longitude": 163.8284
+      }
+    },
+    "categories": [
+      "Oldest",
+      "Tallest"
+    ],
+    "attributes": {
+      "length_meters": 3852,
+      "height_meters": 262,
+      "opened_year": 1935,
+      "type": "Suspension"
+    },
+    "description": "Tower Bridge is a remarkable suspension bridge located in London, UK.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/59/Tower_Bridge_at_Dawn.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tower_Bridge_from_Shoshana.jpg"
+    ],
+    "history": "The Tower Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a tourist attraction.",
+      "It spans over 1 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tower_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-043",
+    "name": "Brooklyn Bridge",
+    "location": {
+      "city": "New York",
+      "country": "USA",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": 29.53,
+        "longitude": 35.1838
+      }
+    },
+    "categories": [
+      "Historical Great Bridges",
+      "Iconic",
+      "High-Level Achievements"
+    ],
+    "attributes": {
+      "length_meters": 3535,
+      "height_meters": 341,
+      "opened_year": 1864,
+      "type": "Cable-stayed"
+    },
+    "description": "Brooklyn Bridge is a remarkable cable-stayed bridge located in New York, USA.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Brooklyn_Bridge_Manhattan.jpg/1280px-Brooklyn_Bridge_Manhattan.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Brooklyn_Bridge_and_Manhattan_Skyline.jpg/1280px-Brooklyn_Bridge_and_Manhattan_Skyline.jpg"
+    ],
+    "history": "The Brooklyn Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 5 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Brooklyn_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-044",
+    "name": "Akashi Kaiky\u014d Bridge",
+    "location": {
+      "city": "Kobe",
+      "country": "Japan",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": 69.9768,
+        "longitude": -138.4783
+      }
+    },
+    "categories": [
+      "Tallest",
+      "Oldest",
+      "Longest"
+    ],
+    "attributes": {
+      "length_meters": 1182,
+      "height_meters": 101,
+      "opened_year": 1986,
+      "type": "Truss"
+    },
+    "description": "Akashi Kaiky\u014d Bridge is a remarkable truss bridge located in Kobe, Japan.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Akashi_Kaikyo_Bridge_Maiko_Hyogo_Japan_%2819175872663%29.jpg/1280px-Akashi_Kaikyo_Bridge_Maiko_Hyogo_Japan_%2819175872663%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/15/Akashi_Kaiky%C5%8D_Bridge_from_Maiko_Marine_Promenade.jpg"
+    ],
+    "history": "The Akashi Kaiky\u014d Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a technical masterpiece.",
+      "It spans over 2 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Akashi_Kaiky\u014d_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-045",
+    "name": "Sydney Harbour Bridge",
+    "location": {
+      "city": "Sydney",
+      "country": "Australia",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": -77.7467,
+        "longitude": 34.0191
+      }
+    },
+    "categories": [
+      "Iconic",
+      "Oldest",
+      "Longest"
+    ],
+    "attributes": {
+      "length_meters": 866,
+      "height_meters": 144,
+      "opened_year": 1986,
+      "type": "Truss"
+    },
+    "description": "Sydney Harbour Bridge is a remarkable truss bridge located in Sydney, Australia.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/de/Sydney_%28AU%29%2C_Harbour_Bridge_--_2019_--_2179.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/de/Sydney_%28AU%29%2C_Harbour_Bridge_--_2019_--_2179.jpg"
+    ],
+    "history": "The Sydney Harbour Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a tourist attraction.",
+      "It spans over 5 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sydney_Harbour_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-046",
+    "name": "Millau Viaduct",
+    "location": {
+      "city": "Millau",
+      "country": "France",
+      "continent": "Asia",
+      "coordinates": {
+        "latitude": -46.024,
+        "longitude": -142.0703
+      }
+    },
+    "categories": [
+      "Historical Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 1713,
+      "height_meters": 326,
+      "opened_year": 1897,
+      "type": "Suspension"
+    },
+    "description": "Millau Viaduct is a remarkable suspension bridge located in Millau, France.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Millau_Viaduct#/media/File:ViaducdeMillau.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Millau_Viaduct_2004-07-15_2.jpg/1280px-Millau_Viaduct_2004-07-15_2.jpg"
+    ],
+    "history": "The Millau Viaduct was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a technical masterpiece.",
+      "It spans over 4 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Millau_Viaduct"
+      }
+    ]
+  },
+  {
+    "id": "bridge-047",
+    "name": "Ponte Vecchio",
+    "location": {
+      "city": "Florence",
+      "country": "Italy",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": -23.5848,
+        "longitude": -129.7984
+      }
+    },
+    "categories": [
+      "Oldest",
+      "Tallest"
+    ],
+    "attributes": {
+      "length_meters": 2966,
+      "height_meters": 318,
+      "opened_year": 1885,
+      "type": "Cable-stayed"
+    },
+    "description": "Ponte Vecchio is a remarkable cable-stayed bridge located in Florence, Italy.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Ponte_Vecchio#/media/File:Ponte_Vecchio_from_Ponte_alle_Grazie.jpg",
+      "images/ponte_vecchio_2.jpg"
+    ],
+    "history": "The Ponte Vecchio was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 1 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ponte_Vecchio"
+      }
+    ]
+  },
+  {
+    "id": "bridge-048",
+    "name": "Charles Bridge",
+    "location": {
+      "city": "Prague",
+      "country": "Czech Republic",
+      "continent": "North America",
+      "coordinates": {
+        "latitude": 59.4929,
+        "longitude": 102.7521
+      }
+    },
+    "categories": [
+      "High-Level Achievements",
+      "Modern Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 2237,
+      "height_meters": 332,
+      "opened_year": 2001,
+      "type": "Suspension"
+    },
+    "description": "Charles Bridge is a remarkable suspension bridge located in Prague, Czech Republic.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Charles_Bridge#/media/File:Charles_Bridge_-_Prague,_Czech_Republic_-_panoramio.jpg",
+      "images/charles_bridge_2.jpg"
+    ],
+    "history": "The Charles Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 3 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Charles_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-049",
+    "name": "Chapel Bridge",
+    "location": {
+      "city": "Lucerne",
+      "country": "Switzerland",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": 19.2353,
+        "longitude": 19.3857
+      }
+    },
+    "categories": [
+      "Oldest",
+      "Longest",
+      "Modern Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 2435,
+      "height_meters": 103,
+      "opened_year": 1952,
+      "type": "Arch"
+    },
+    "description": "Chapel Bridge is a remarkable arch bridge located in Lucerne, Switzerland.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Kapellbr%C3%BCcke#/media/File:Kapellbruecke.JPG",
+      "images/chapel_bridge_2.jpg"
+    ],
+    "history": "The Chapel Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a technical masterpiece.",
+      "It spans over 5 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Chapel_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-050",
+    "name": "Rialto Bridge",
+    "location": {
+      "city": "Venice",
+      "country": "Italy",
+      "continent": "Asia",
+      "coordinates": {
+        "latitude": -60.4143,
+        "longitude": 83.1654
+      }
+    },
+    "categories": [
+      "Longest",
+      "Iconic",
+      "Historical Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 3579,
+      "height_meters": 227,
+      "opened_year": 2014,
+      "type": "Truss"
+    },
+    "description": "Rialto Bridge is a remarkable truss bridge located in Venice, Italy.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Rialto_Bridge#/media/File:Ponte_di_Rialto_facciata_ovest_di_sera.jpg",
+      "images/rialto_bridge_2.jpg"
+    ],
+    "history": "The Rialto Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 5 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Rialto_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-051",
+    "name": "Forth Bridge",
+    "location": {
+      "city": "Edinburgh",
+      "country": "Scotland",
+      "continent": "Asia",
+      "coordinates": {
+        "latitude": 75.3413,
+        "longitude": -151.8856
+      }
+    },
+    "categories": [
+      "Iconic",
+      "Tallest",
+      "Historical Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 1738,
+      "height_meters": 72,
+      "opened_year": 1926,
+      "type": "Cable-stayed"
+    },
+    "description": "Forth Bridge is a remarkable cable-stayed bridge located in Edinburgh, Scotland.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e0/Forth_Bridge_2022.jpg",
+      "images/forth_bridge_2.jpg"
+    ],
+    "history": "The Forth Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a tourist attraction.",
+      "It spans over 3 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Forth_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-052",
+    "name": "Bosphorus Bridge",
+    "location": {
+      "city": "Istanbul",
+      "country": "Turkey",
+      "continent": "Asia",
+      "coordinates": {
+        "latitude": -43.3344,
+        "longitude": -110.4886
+      }
+    },
+    "categories": [
+      "High-Level Achievements",
+      "Highest"
+    ],
+    "attributes": {
+      "length_meters": 1231,
+      "height_meters": 201,
+      "opened_year": 1872,
+      "type": "Suspension"
+    },
+    "description": "Bosphorus Bridge is a remarkable suspension bridge located in Istanbul, Turkey.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/53/Bosphorus_Bridge_%28235499411%29.jpegimages/bosphorus_bridge_1.jpg",
+      "images/bosphorus_bridge_2.jpg"
+    ],
+    "history": "The Bosphorus Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 4 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bosphorus_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-053",
+    "name": "Helix Bridge",
+    "location": {
+      "city": "Singapore",
+      "country": "Singapore",
+      "continent": "Australia",
+      "coordinates": {
+        "latitude": -27.0419,
+        "longitude": 102.7835
+      }
+    },
+    "categories": [
+      "Historical Great Bridges",
+      "High-Level Achievements",
+      "Iconic"
+    ],
+    "attributes": {
+      "length_meters": 2102,
+      "height_meters": 141,
+      "opened_year": 1914,
+      "type": "Cable-stayed"
+    },
+    "description": "Helix Bridge is a remarkable cable-stayed bridge located in Singapore, Singapore.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Helix_Bridge#/media/File:Double-Helix-Bridge.jpg",
+      "images/helix_bridge_2.jpg"
+    ],
+    "history": "The Helix Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a technical masterpiece.",
+      "It spans over 1 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Helix_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-054",
+    "name": "Nanpu Bridge",
+    "location": {
+      "city": "Shanghai",
+      "country": "China",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": 56.8301,
+        "longitude": -64.9971
+      }
+    },
+    "categories": [
+      "Longest",
+      "Modern Great Bridges",
+      "Historical Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 3760,
+      "height_meters": 204,
+      "opened_year": 1971,
+      "type": "Suspension"
+    },
+    "description": "Nanpu Bridge is a remarkable suspension bridge located in Shanghai, China.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Nanpu_Bridge#/media/File:Nanpu_Bridge_2.jpg",
+      "images/nanpu_bridge_2.jpg"
+    ],
+    "history": "The Nanpu Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a tourist attraction.",
+      "It spans over 2 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Nanpu_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-055",
+    "name": "Tsing Ma Bridge",
+    "location": {
+      "city": "Hong Kong",
+      "country": "China",
+      "continent": "North America",
+      "coordinates": {
+        "latitude": 81.3109,
+        "longitude": -114.8694
+      }
+    },
+    "categories": [
+      "High-Level Achievements"
+    ],
+    "attributes": {
+      "length_meters": 2205,
+      "height_meters": 279,
+      "opened_year": 1993,
+      "type": "Cable-stayed"
+    },
+    "description": "Tsing Ma Bridge is a remarkable cable-stayed bridge located in Hong Kong, China.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Tsing_Ma_Bridge#/media/File:Tsing_Ma_Bridge_2.jpg",
+      "images/tsing_ma_bridge_2.jpg"
+    ],
+    "history": "The Tsing Ma Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 4 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tsing_Ma_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-056",
+    "name": "Vasco da Gama Bridge",
+    "location": {
+      "city": "Lisbon",
+      "country": "Portugal",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": 8.0378,
+        "longitude": -66.1348
+      }
+    },
+    "categories": [
+      "Modern Great Bridges",
+      "High-Level Achievements"
+    ],
+    "attributes": {
+      "length_meters": 2618,
+      "height_meters": 254,
+      "opened_year": 2017,
+      "type": "Truss"
+    },
+    "description": "Vasco da Gama Bridge is a remarkable truss bridge located in Lisbon, Portugal.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Vasco_da_Gama_Bridge#/media/File:Vasco_da_Gama_Bridge_aerial_view.jpg",
+      "images/vasco_da_gama_bridge_2.jpg"
+    ],
+    "history": "The Vasco da Gama Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a tourist attraction.",
+      "It spans over 1 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Vasco_da_Gama_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-057",
+    "name": "\u00d8resund Bridge",
+    "location": {
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": -75.3525,
+        "longitude": 50.2316
+      }
+    },
+    "categories": [
+      "Longest",
+      "Oldest",
+      "High-Level Achievements"
+    ],
+    "attributes": {
+      "length_meters": 1015,
+      "height_meters": 248,
+      "opened_year": 1952,
+      "type": "Suspension"
+    },
+    "description": "\u00d8resund Bridge is a remarkable suspension bridge located in Copenhagen, Denmark.",
+    "images": [
+      "https://en.wikipedia.org/wiki/%C3%98resund_Bridge#/media/File:%C3%98resund_Bridge_from_the_air_in_September_2015.jpg",
+      "images/\u00f8resund_bridge_2.jpg"
+    ],
+    "history": "The \u00d8resund Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a technical masterpiece.",
+      "It spans over 4 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/\u00d8resund_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-058",
+    "name": "Duge Bridge",
+    "location": {
+      "city": "Guizhou",
+      "country": "China",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": -40.8972,
+        "longitude": -67.3806
+      }
+    },
+    "categories": [
+      "Historical Great Bridges",
+      "Longest",
+      "Tallest"
+    ],
+    "attributes": {
+      "length_meters": 846,
+      "height_meters": 118,
+      "opened_year": 1893,
+      "type": "Beam"
+    },
+    "description": "Duge Bridge is a remarkable beam bridge located in Guizhou, China.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Duge_Bridge#/media/File:Duge_Bridge.jpg",
+      "images/duge_bridge_2.jpg"
+    ],
+    "history": "The Duge Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a tourist attraction.",
+      "It spans over 2 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Duge_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-059",
+    "name": "Coronado Bridge",
+    "location": {
+      "city": "San Diego",
+      "country": "USA",
+      "continent": "Asia",
+      "coordinates": {
+        "latitude": 80.9031,
+        "longitude": 75.2809
+      }
+    },
+    "categories": [
+      "Tallest",
+      "Historical Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 1971,
+      "height_meters": 274,
+      "opened_year": 1912,
+      "type": "Beam"
+    },
+    "description": "Coronado Bridge is a remarkable beam bridge located in San Diego, USA.",
+    "images": [
+      "https://en.wikipedia.org/wiki/San_Diego%E2%80%93Coronado_Bridge#/media/File:San_Diego-Coronado_Bridge_by_Frank_Mckenna.jpg",
+      "images/coronado_bridge_2.jpg"
+    ],
+    "history": "The Coronado Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 1 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Coronado_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-060",
+    "name": "George Washington Bridge",
+    "location": {
+      "city": "New Jersey",
+      "country": "USA",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": -38.7637,
+        "longitude": -36.7779
+      }
+    },
+    "categories": [
+      "High-Level Achievements",
+      "Longest",
+      "Modern Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 2651,
+      "height_meters": 81,
+      "opened_year": 1939,
+      "type": "Arch"
+    },
+    "description": "George Washington Bridge is a remarkable arch bridge located in New Jersey, USA.",
+    "images": [
+      "https://en.wikipedia.org/wiki/George_Washington_Bridge#/media/File:George_Washington_Bridge_from_New_Jersey-edit.jpg",
+      "images/george_washington_bridge_2.jpg"
+    ],
+    "history": "The George Washington Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 2 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/George_Washington_Bridge"
+      }
+    ]
+  },
+   {"id": "bridge-061",
+    "name": "Golden Gate Bridge",
+    "location": {
+      "city": "San Francisco",
+      "country": "USA",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": 85.6776,
+        "longitude": 86.8024
+      }
+    },
+    "categories": [
+      "High-Level Achievements",
+      "Longest",
+      "Oldest"
+    ],
+    "attributes": {
+      "length_meters": 866,
+      "height_meters": 241,
+      "opened_year": 1869,
+      "type": "Truss"
+    },
+    "description": "Golden Gate Bridge is a remarkable truss bridge located in San Francisco, USA.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/0c/GoldenGateBridge-001.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/2c/Golden_Gate_Bridge_in_Fog.jpg"
+    ],
+    "history": "The Golden Gate Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 5 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Golden_Gate_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-062",
+    "name": "Tower Bridge",
+    "location": {
+      "city": "London",
+      "country": "UK",
+      "continent": "Australia",
+      "coordinates": {
+        "latitude": -84.6693,
+        "longitude": 163.8284
+      }
+    },
+    "categories": [
+      "Oldest",
+      "Tallest"
+    ],
+    "attributes": {
+      "length_meters": 3852,
+      "height_meters": 262,
+      "opened_year": 1935,
+      "type": "Suspension"
+    },
+    "description": "Tower Bridge is a remarkable suspension bridge located in London, UK.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/59/Tower_Bridge_at_Dawn.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tower_Bridge_from_Shoshana.jpg"
+    ],
+    "history": "The Tower Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a tourist attraction.",
+      "It spans over 1 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tower_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-063",
+    "name": "Brooklyn Bridge",
+    "location": {
+      "city": "New York",
+      "country": "USA",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": 29.53,
+        "longitude": 35.1838
+      }
+    },
+    "categories": [
+      "Historical Great Bridges",
+      "Iconic",
+      "High-Level Achievements"
+    ],
+    "attributes": {
+      "length_meters": 3535,
+      "height_meters": 341,
+      "opened_year": 1864,
+      "type": "Cable-stayed"
+    },
+    "description": "Brooklyn Bridge is a remarkable cable-stayed bridge located in New York, USA.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Brooklyn_Bridge_Manhattan.jpg/1280px-Brooklyn_Bridge_Manhattan.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Brooklyn_Bridge_and_Manhattan_Skyline.jpg/1280px-Brooklyn_Bridge_and_Manhattan_Skyline.jpg"
+    ],
+    "history": "The Brooklyn Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 5 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Brooklyn_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-064",
+    "name": "Akashi Kaiky\u014d Bridge",
+    "location": {
+      "city": "Kobe",
+      "country": "Japan",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": 69.9768,
+        "longitude": -138.4783
+      }
+    },
+    "categories": [
+      "Tallest",
+      "Oldest",
+      "Longest"
+    ],
+    "attributes": {
+      "length_meters": 1182,
+      "height_meters": 101,
+      "opened_year": 1986,
+      "type": "Truss"
+    },
+    "description": "Akashi Kaiky\u014d Bridge is a remarkable truss bridge located in Kobe, Japan.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Akashi_Kaikyo_Bridge_Maiko_Hyogo_Japan_%2819175872663%29.jpg/1280px-Akashi_Kaikyo_Bridge_Maiko_Hyogo_Japan_%2819175872663%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/15/Akashi_Kaiky%C5%8D_Bridge_from_Maiko_Marine_Promenade.jpg"
+    ],
+    "history": "The Akashi Kaiky\u014d Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a technical masterpiece.",
+      "It spans over 2 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Akashi_Kaiky\u014d_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-065",
+    "name": "Sydney Harbour Bridge",
+    "location": {
+      "city": "Sydney",
+      "country": "Australia",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": -77.7467,
+        "longitude": 34.0191
+      }
+    },
+    "categories": [
+      "Iconic",
+      "Oldest",
+      "Longest"
+    ],
+    "attributes": {
+      "length_meters": 866,
+      "height_meters": 144,
+      "opened_year": 1986,
+      "type": "Truss"
+    },
+    "description": "Sydney Harbour Bridge is a remarkable truss bridge located in Sydney, Australia.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/de/Sydney_%28AU%29%2C_Harbour_Bridge_--_2019_--_2179.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/de/Sydney_%28AU%29%2C_Harbour_Bridge_--_2019_--_2179.jpg"
+    ],
+    "history": "The Sydney Harbour Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a tourist attraction.",
+      "It spans over 5 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sydney_Harbour_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-066",
+    "name": "Millau Viaduct",
+    "location": {
+      "city": "Millau",
+      "country": "France",
+      "continent": "Asia",
+      "coordinates": {
+        "latitude": -46.024,
+        "longitude": -142.0703
+      }
+    },
+    "categories": [
+      "Historical Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 1713,
+      "height_meters": 326,
+      "opened_year": 1897,
+      "type": "Suspension"
+    },
+    "description": "Millau Viaduct is a remarkable suspension bridge located in Millau, France.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Millau_Viaduct#/media/File:ViaducdeMillau.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Millau_Viaduct_2004-07-15_2.jpg/1280px-Millau_Viaduct_2004-07-15_2.jpg"
+    ],
+    "history": "The Millau Viaduct was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a technical masterpiece.",
+      "It spans over 4 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Millau_Viaduct"
+      }
+    ]
+  },
+  {
+    "id": "bridge-067",
+    "name": "Ponte Vecchio",
+    "location": {
+      "city": "Florence",
+      "country": "Italy",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": -23.5848,
+        "longitude": -129.7984
+      }
+    },
+    "categories": [
+      "Oldest",
+      "Tallest"
+    ],
+    "attributes": {
+      "length_meters": 2966,
+      "height_meters": 318,
+      "opened_year": 1885,
+      "type": "Cable-stayed"
+    },
+    "description": "Ponte Vecchio is a remarkable cable-stayed bridge located in Florence, Italy.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Ponte_Vecchio#/media/File:Ponte_Vecchio_from_Ponte_alle_Grazie.jpg",
+      "images/ponte_vecchio_2.jpg"
+    ],
+    "history": "The Ponte Vecchio was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 1 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ponte_Vecchio"
+      }
+    ]
+  },
+  {
+    "id": "bridge-068",
+    "name": "Charles Bridge",
+    "location": {
+      "city": "Prague",
+      "country": "Czech Republic",
+      "continent": "North America",
+      "coordinates": {
+        "latitude": 59.4929,
+        "longitude": 102.7521
+      }
+    },
+    "categories": [
+      "High-Level Achievements",
+      "Modern Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 2237,
+      "height_meters": 332,
+      "opened_year": 2001,
+      "type": "Suspension"
+    },
+    "description": "Charles Bridge is a remarkable suspension bridge located in Prague, Czech Republic.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Charles_Bridge#/media/File:Charles_Bridge_-_Prague,_Czech_Republic_-_panoramio.jpg",
+      "images/charles_bridge_2.jpg"
+    ],
+    "history": "The Charles Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 3 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Charles_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-069",
+    "name": "Chapel Bridge",
+    "location": {
+      "city": "Lucerne",
+      "country": "Switzerland",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": 19.2353,
+        "longitude": 19.3857
+      }
+    },
+    "categories": [
+      "Oldest",
+      "Longest",
+      "Modern Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 2435,
+      "height_meters": 103,
+      "opened_year": 1952,
+      "type": "Arch"
+    },
+    "description": "Chapel Bridge is a remarkable arch bridge located in Lucerne, Switzerland.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Kapellbr%C3%BCcke#/media/File:Kapellbruecke.JPG",
+      "images/chapel_bridge_2.jpg"
+    ],
+    "history": "The Chapel Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a technical masterpiece.",
+      "It spans over 5 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Chapel_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-070",
+    "name": "Rialto Bridge",
+    "location": {
+      "city": "Venice",
+      "country": "Italy",
+      "continent": "Asia",
+      "coordinates": {
+        "latitude": -60.4143,
+        "longitude": 83.1654
+      }
+    },
+    "categories": [
+      "Longest",
+      "Iconic",
+      "Historical Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 3579,
+      "height_meters": 227,
+      "opened_year": 2014,
+      "type": "Truss"
+    },
+    "description": "Rialto Bridge is a remarkable truss bridge located in Venice, Italy.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Rialto_Bridge#/media/File:Ponte_di_Rialto_facciata_ovest_di_sera.jpg",
+      "images/rialto_bridge_2.jpg"
+    ],
+    "history": "The Rialto Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 5 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Rialto_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-071",
+    "name": "Forth Bridge",
+    "location": {
+      "city": "Edinburgh",
+      "country": "Scotland",
+      "continent": "Asia",
+      "coordinates": {
+        "latitude": 75.3413,
+        "longitude": -151.8856
+      }
+    },
+    "categories": [
+      "Iconic",
+      "Tallest",
+      "Historical Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 1738,
+      "height_meters": 72,
+      "opened_year": 1926,
+      "type": "Cable-stayed"
+    },
+    "description": "Forth Bridge is a remarkable cable-stayed bridge located in Edinburgh, Scotland.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e0/Forth_Bridge_2022.jpg",
+      "images/forth_bridge_2.jpg"
+    ],
+    "history": "The Forth Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a tourist attraction.",
+      "It spans over 3 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Forth_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-072",
+    "name": "Bosphorus Bridge",
+    "location": {
+      "city": "Istanbul",
+      "country": "Turkey",
+      "continent": "Asia",
+      "coordinates": {
+        "latitude": -43.3344,
+        "longitude": -110.4886
+      }
+    },
+    "categories": [
+      "High-Level Achievements",
+      "Highest"
+    ],
+    "attributes": {
+      "length_meters": 1231,
+      "height_meters": 201,
+      "opened_year": 1872,
+      "type": "Suspension"
+    },
+    "description": "Bosphorus Bridge is a remarkable suspension bridge located in Istanbul, Turkey.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/53/Bosphorus_Bridge_%28235499411%29.jpegimages/bosphorus_bridge_1.jpg",
+      "images/bosphorus_bridge_2.jpg"
+    ],
+    "history": "The Bosphorus Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 4 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bosphorus_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-073",
+    "name": "Helix Bridge",
+    "location": {
+      "city": "Singapore",
+      "country": "Singapore",
+      "continent": "Australia",
+      "coordinates": {
+        "latitude": -27.0419,
+        "longitude": 102.7835
+      }
+    },
+    "categories": [
+      "Historical Great Bridges",
+      "High-Level Achievements",
+      "Iconic"
+    ],
+    "attributes": {
+      "length_meters": 2102,
+      "height_meters": 141,
+      "opened_year": 1914,
+      "type": "Cable-stayed"
+    },
+    "description": "Helix Bridge is a remarkable cable-stayed bridge located in Singapore, Singapore.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Helix_Bridge#/media/File:Double-Helix-Bridge.jpg",
+      "images/helix_bridge_2.jpg"
+    ],
+    "history": "The Helix Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a technical masterpiece.",
+      "It spans over 1 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Helix_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-074",
+    "name": "Nanpu Bridge",
+    "location": {
+      "city": "Shanghai",
+      "country": "China",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": 56.8301,
+        "longitude": -64.9971
+      }
+    },
+    "categories": [
+      "Longest",
+      "Modern Great Bridges",
+      "Historical Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 3760,
+      "height_meters": 204,
+      "opened_year": 1971,
+      "type": "Suspension"
+    },
+    "description": "Nanpu Bridge is a remarkable suspension bridge located in Shanghai, China.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Nanpu_Bridge#/media/File:Nanpu_Bridge_2.jpg",
+      "images/nanpu_bridge_2.jpg"
+    ],
+    "history": "The Nanpu Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a tourist attraction.",
+      "It spans over 2 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Nanpu_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-075",
+    "name": "Tsing Ma Bridge",
+    "location": {
+      "city": "Hong Kong",
+      "country": "China",
+      "continent": "North America",
+      "coordinates": {
+        "latitude": 81.3109,
+        "longitude": -114.8694
+      }
+    },
+    "categories": [
+      "High-Level Achievements"
+    ],
+    "attributes": {
+      "length_meters": 2205,
+      "height_meters": 279,
+      "opened_year": 1993,
+      "type": "Cable-stayed"
+    },
+    "description": "Tsing Ma Bridge is a remarkable cable-stayed bridge located in Hong Kong, China.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Tsing_Ma_Bridge#/media/File:Tsing_Ma_Bridge_2.jpg",
+      "images/tsing_ma_bridge_2.jpg"
+    ],
+    "history": "The Tsing Ma Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 4 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tsing_Ma_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-076",
+    "name": "Vasco da Gama Bridge",
+    "location": {
+      "city": "Lisbon",
+      "country": "Portugal",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": 8.0378,
+        "longitude": -66.1348
+      }
+    },
+    "categories": [
+      "Modern Great Bridges",
+      "High-Level Achievements"
+    ],
+    "attributes": {
+      "length_meters": 2618,
+      "height_meters": 254,
+      "opened_year": 2017,
+      "type": "Truss"
+    },
+    "description": "Vasco da Gama Bridge is a remarkable truss bridge located in Lisbon, Portugal.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Vasco_da_Gama_Bridge#/media/File:Vasco_da_Gama_Bridge_aerial_view.jpg",
+      "images/vasco_da_gama_bridge_2.jpg"
+    ],
+    "history": "The Vasco da Gama Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a tourist attraction.",
+      "It spans over 1 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Vasco_da_Gama_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-077",
+    "name": "\u00d8resund Bridge",
+    "location": {
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": -75.3525,
+        "longitude": 50.2316
+      }
+    },
+    "categories": [
+      "Longest",
+      "Oldest",
+      "High-Level Achievements"
+    ],
+    "attributes": {
+      "length_meters": 1015,
+      "height_meters": 248,
+      "opened_year": 1952,
+      "type": "Suspension"
+    },
+    "description": "\u00d8resund Bridge is a remarkable suspension bridge located in Copenhagen, Denmark.",
+    "images": [
+      "https://en.wikipedia.org/wiki/%C3%98resund_Bridge#/media/File:%C3%98resund_Bridge_from_the_air_in_September_2015.jpg",
+      "images/\u00f8resund_bridge_2.jpg"
+    ],
+    "history": "The \u00d8resund Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a technical masterpiece.",
+      "It spans over 4 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/\u00d8resund_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-078",
+    "name": "Duge Bridge",
+    "location": {
+      "city": "Guizhou",
+      "country": "China",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": -40.8972,
+        "longitude": -67.3806
+      }
+    },
+    "categories": [
+      "Historical Great Bridges",
+      "Longest",
+      "Tallest"
+    ],
+    "attributes": {
+      "length_meters": 846,
+      "height_meters": 118,
+      "opened_year": 1893,
+      "type": "Beam"
+    },
+    "description": "Duge Bridge is a remarkable beam bridge located in Guizhou, China.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Duge_Bridge#/media/File:Duge_Bridge.jpg",
+      "images/duge_bridge_2.jpg"
+    ],
+    "history": "The Duge Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a tourist attraction.",
+      "It spans over 2 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Duge_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-079",
+    "name": "Coronado Bridge",
+    "location": {
+      "city": "San Diego",
+      "country": "USA",
+      "continent": "Asia",
+      "coordinates": {
+        "latitude": 80.9031,
+        "longitude": 75.2809
+      }
+    },
+    "categories": [
+      "Tallest",
+      "Historical Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 1971,
+      "height_meters": 274,
+      "opened_year": 1912,
+      "type": "Beam"
+    },
+    "description": "Coronado Bridge is a remarkable beam bridge located in San Diego, USA.",
+    "images": [
+      "https://en.wikipedia.org/wiki/San_Diego%E2%80%93Coronado_Bridge#/media/File:San_Diego-Coronado_Bridge_by_Frank_Mckenna.jpg",
+      "images/coronado_bridge_2.jpg"
+    ],
+    "history": "The Coronado Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 1 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Coronado_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-080",
+    "name": "George Washington Bridge",
+    "location": {
+      "city": "New Jersey",
+      "country": "USA",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": -38.7637,
+        "longitude": -36.7779
+      }
+    },
+    "categories": [
+      "High-Level Achievements",
+      "Longest",
+      "Modern Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 2651,
+      "height_meters": 81,
+      "opened_year": 1939,
+      "type": "Arch"
+    },
+    "description": "George Washington Bridge is a remarkable arch bridge located in New Jersey, USA.",
+    "images": [
+      "https://en.wikipedia.org/wiki/George_Washington_Bridge#/media/File:George_Washington_Bridge_from_New_Jersey-edit.jpg",
+      "images/george_washington_bridge_2.jpg"
+    ],
+    "history": "The George Washington Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 2 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/George_Washington_Bridge"
+      }
+    ]
+  },
+   {"id": "bridge-081",
+    "name": "Golden Gate Bridge",
+    "location": {
+      "city": "San Francisco",
+      "country": "USA",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": 85.6776,
+        "longitude": 86.8024
+      }
+    },
+    "categories": [
+      "High-Level Achievements",
+      "Longest",
+      "Oldest"
+    ],
+    "attributes": {
+      "length_meters": 866,
+      "height_meters": 241,
+      "opened_year": 1869,
+      "type": "Truss"
+    },
+    "description": "Golden Gate Bridge is a remarkable truss bridge located in San Francisco, USA.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/0c/GoldenGateBridge-001.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/2c/Golden_Gate_Bridge_in_Fog.jpg"
+    ],
+    "history": "The Golden Gate Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 5 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Golden_Gate_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-082",
+    "name": "Tower Bridge",
+    "location": {
+      "city": "London",
+      "country": "UK",
+      "continent": "Australia",
+      "coordinates": {
+        "latitude": -84.6693,
+        "longitude": 163.8284
+      }
+    },
+    "categories": [
+      "Oldest",
+      "Tallest"
+    ],
+    "attributes": {
+      "length_meters": 3852,
+      "height_meters": 262,
+      "opened_year": 1935,
+      "type": "Suspension"
+    },
+    "description": "Tower Bridge is a remarkable suspension bridge located in London, UK.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/59/Tower_Bridge_at_Dawn.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tower_Bridge_from_Shoshana.jpg"
+    ],
+    "history": "The Tower Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a tourist attraction.",
+      "It spans over 1 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tower_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-083",
+    "name": "Brooklyn Bridge",
+    "location": {
+      "city": "New York",
+      "country": "USA",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": 29.53,
+        "longitude": 35.1838
+      }
+    },
+    "categories": [
+      "Historical Great Bridges",
+      "Iconic",
+      "High-Level Achievements"
+    ],
+    "attributes": {
+      "length_meters": 3535,
+      "height_meters": 341,
+      "opened_year": 1864,
+      "type": "Cable-stayed"
+    },
+    "description": "Brooklyn Bridge is a remarkable cable-stayed bridge located in New York, USA.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Brooklyn_Bridge_Manhattan.jpg/1280px-Brooklyn_Bridge_Manhattan.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Brooklyn_Bridge_and_Manhattan_Skyline.jpg/1280px-Brooklyn_Bridge_and_Manhattan_Skyline.jpg"
+    ],
+    "history": "The Brooklyn Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 5 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Brooklyn_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-084",
+    "name": "Akashi Kaiky\u014d Bridge",
+    "location": {
+      "city": "Kobe",
+      "country": "Japan",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": 69.9768,
+        "longitude": -138.4783
+      }
+    },
+    "categories": [
+      "Tallest",
+      "Oldest",
+      "Longest"
+    ],
+    "attributes": {
+      "length_meters": 1182,
+      "height_meters": 101,
+      "opened_year": 1986,
+      "type": "Truss"
+    },
+    "description": "Akashi Kaiky\u014d Bridge is a remarkable truss bridge located in Kobe, Japan.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Akashi_Kaikyo_Bridge_Maiko_Hyogo_Japan_%2819175872663%29.jpg/1280px-Akashi_Kaikyo_Bridge_Maiko_Hyogo_Japan_%2819175872663%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/15/Akashi_Kaiky%C5%8D_Bridge_from_Maiko_Marine_Promenade.jpg"
+    ],
+    "history": "The Akashi Kaiky\u014d Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a technical masterpiece.",
+      "It spans over 2 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Akashi_Kaiky\u014d_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-085",
+    "name": "Sydney Harbour Bridge",
+    "location": {
+      "city": "Sydney",
+      "country": "Australia",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": -77.7467,
+        "longitude": 34.0191
+      }
+    },
+    "categories": [
+      "Iconic",
+      "Oldest",
+      "Longest"
+    ],
+    "attributes": {
+      "length_meters": 866,
+      "height_meters": 144,
+      "opened_year": 1986,
+      "type": "Truss"
+    },
+    "description": "Sydney Harbour Bridge is a remarkable truss bridge located in Sydney, Australia.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/de/Sydney_%28AU%29%2C_Harbour_Bridge_--_2019_--_2179.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/de/Sydney_%28AU%29%2C_Harbour_Bridge_--_2019_--_2179.jpg"
+    ],
+    "history": "The Sydney Harbour Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a tourist attraction.",
+      "It spans over 5 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sydney_Harbour_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-086",
+    "name": "Millau Viaduct",
+    "location": {
+      "city": "Millau",
+      "country": "France",
+      "continent": "Asia",
+      "coordinates": {
+        "latitude": -46.024,
+        "longitude": -142.0703
+      }
+    },
+    "categories": [
+      "Historical Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 1713,
+      "height_meters": 326,
+      "opened_year": 1897,
+      "type": "Suspension"
+    },
+    "description": "Millau Viaduct is a remarkable suspension bridge located in Millau, France.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Millau_Viaduct#/media/File:ViaducdeMillau.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Millau_Viaduct_2004-07-15_2.jpg/1280px-Millau_Viaduct_2004-07-15_2.jpg"
+    ],
+    "history": "The Millau Viaduct was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a technical masterpiece.",
+      "It spans over 4 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Millau_Viaduct"
+      }
+    ]
+  },
+  {
+    "id": "bridge-087",
+    "name": "Ponte Vecchio",
+    "location": {
+      "city": "Florence",
+      "country": "Italy",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": -23.5848,
+        "longitude": -129.7984
+      }
+    },
+    "categories": [
+      "Oldest",
+      "Tallest"
+    ],
+    "attributes": {
+      "length_meters": 2966,
+      "height_meters": 318,
+      "opened_year": 1885,
+      "type": "Cable-stayed"
+    },
+    "description": "Ponte Vecchio is a remarkable cable-stayed bridge located in Florence, Italy.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Ponte_Vecchio#/media/File:Ponte_Vecchio_from_Ponte_alle_Grazie.jpg",
+      "images/ponte_vecchio_2.jpg"
+    ],
+    "history": "The Ponte Vecchio was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 1 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ponte_Vecchio"
+      }
+    ]
+  },
+  {
+    "id": "bridge-088",
+    "name": "Charles Bridge",
+    "location": {
+      "city": "Prague",
+      "country": "Czech Republic",
+      "continent": "North America",
+      "coordinates": {
+        "latitude": 59.4929,
+        "longitude": 102.7521
+      }
+    },
+    "categories": [
+      "High-Level Achievements",
+      "Modern Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 2237,
+      "height_meters": 332,
+      "opened_year": 2001,
+      "type": "Suspension"
+    },
+    "description": "Charles Bridge is a remarkable suspension bridge located in Prague, Czech Republic.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Charles_Bridge#/media/File:Charles_Bridge_-_Prague,_Czech_Republic_-_panoramio.jpg",
+      "images/charles_bridge_2.jpg"
+    ],
+    "history": "The Charles Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 3 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Charles_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-089",
+    "name": "Chapel Bridge",
+    "location": {
+      "city": "Lucerne",
+      "country": "Switzerland",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": 19.2353,
+        "longitude": 19.3857
+      }
+    },
+    "categories": [
+      "Oldest",
+      "Longest",
+      "Modern Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 2435,
+      "height_meters": 103,
+      "opened_year": 1952,
+      "type": "Arch"
+    },
+    "description": "Chapel Bridge is a remarkable arch bridge located in Lucerne, Switzerland.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Kapellbr%C3%BCcke#/media/File:Kapellbruecke.JPG",
+      "images/chapel_bridge_2.jpg"
+    ],
+    "history": "The Chapel Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a technical masterpiece.",
+      "It spans over 5 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Chapel_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-090",
+    "name": "Rialto Bridge",
+    "location": {
+      "city": "Venice",
+      "country": "Italy",
+      "continent": "Asia",
+      "coordinates": {
+        "latitude": -60.4143,
+        "longitude": 83.1654
+      }
+    },
+    "categories": [
+      "Longest",
+      "Iconic",
+      "Historical Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 3579,
+      "height_meters": 227,
+      "opened_year": 2014,
+      "type": "Truss"
+    },
+    "description": "Rialto Bridge is a remarkable truss bridge located in Venice, Italy.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Rialto_Bridge#/media/File:Ponte_di_Rialto_facciata_ovest_di_sera.jpg",
+      "images/rialto_bridge_2.jpg"
+    ],
+    "history": "The Rialto Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 5 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Rialto_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-091",
+    "name": "Forth Bridge",
+    "location": {
+      "city": "Edinburgh",
+      "country": "Scotland",
+      "continent": "Asia",
+      "coordinates": {
+        "latitude": 75.3413,
+        "longitude": -151.8856
+      }
+    },
+    "categories": [
+      "Iconic",
+      "Tallest",
+      "Historical Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 1738,
+      "height_meters": 72,
+      "opened_year": 1926,
+      "type": "Cable-stayed"
+    },
+    "description": "Forth Bridge is a remarkable cable-stayed bridge located in Edinburgh, Scotland.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e0/Forth_Bridge_2022.jpg",
+      "images/forth_bridge_2.jpg"
+    ],
+    "history": "The Forth Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a tourist attraction.",
+      "It spans over 3 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Forth_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-092",
+    "name": "Bosphorus Bridge",
+    "location": {
+      "city": "Istanbul",
+      "country": "Turkey",
+      "continent": "Asia",
+      "coordinates": {
+        "latitude": -43.3344,
+        "longitude": -110.4886
+      }
+    },
+    "categories": [
+      "High-Level Achievements",
+      "Highest"
+    ],
+    "attributes": {
+      "length_meters": 1231,
+      "height_meters": 201,
+      "opened_year": 1872,
+      "type": "Suspension"
+    },
+    "description": "Bosphorus Bridge is a remarkable suspension bridge located in Istanbul, Turkey.",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/53/Bosphorus_Bridge_%28235499411%29.jpegimages/bosphorus_bridge_1.jpg",
+      "images/bosphorus_bridge_2.jpg"
+    ],
+    "history": "The Bosphorus Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 4 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bosphorus_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-093",
+    "name": "Helix Bridge",
+    "location": {
+      "city": "Singapore",
+      "country": "Singapore",
+      "continent": "Australia",
+      "coordinates": {
+        "latitude": -27.0419,
+        "longitude": 102.7835
+      }
+    },
+    "categories": [
+      "Historical Great Bridges",
+      "High-Level Achievements",
+      "Iconic"
+    ],
+    "attributes": {
+      "length_meters": 2102,
+      "height_meters": 141,
+      "opened_year": 1914,
+      "type": "Cable-stayed"
+    },
+    "description": "Helix Bridge is a remarkable cable-stayed bridge located in Singapore, Singapore.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Helix_Bridge#/media/File:Double-Helix-Bridge.jpg",
+      "images/helix_bridge_2.jpg"
+    ],
+    "history": "The Helix Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a technical masterpiece.",
+      "It spans over 1 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Helix_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-094",
+    "name": "Nanpu Bridge",
+    "location": {
+      "city": "Shanghai",
+      "country": "China",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": 56.8301,
+        "longitude": -64.9971
+      }
+    },
+    "categories": [
+      "Longest",
+      "Modern Great Bridges",
+      "Historical Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 3760,
+      "height_meters": 204,
+      "opened_year": 1971,
+      "type": "Suspension"
+    },
+    "description": "Nanpu Bridge is a remarkable suspension bridge located in Shanghai, China.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Nanpu_Bridge#/media/File:Nanpu_Bridge_2.jpg",
+      "images/nanpu_bridge_2.jpg"
+    ],
+    "history": "The Nanpu Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a tourist attraction.",
+      "It spans over 2 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Nanpu_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-095",
+    "name": "Tsing Ma Bridge",
+    "location": {
+      "city": "Hong Kong",
+      "country": "China",
+      "continent": "North America",
+      "coordinates": {
+        "latitude": 81.3109,
+        "longitude": -114.8694
+      }
+    },
+    "categories": [
+      "High-Level Achievements"
+    ],
+    "attributes": {
+      "length_meters": 2205,
+      "height_meters": 279,
+      "opened_year": 1993,
+      "type": "Cable-stayed"
+    },
+    "description": "Tsing Ma Bridge is a remarkable cable-stayed bridge located in Hong Kong, China.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Tsing_Ma_Bridge#/media/File:Tsing_Ma_Bridge_2.jpg",
+      "images/tsing_ma_bridge_2.jpg"
+    ],
+    "history": "The Tsing Ma Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 4 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tsing_Ma_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-096",
+    "name": "Vasco da Gama Bridge",
+    "location": {
+      "city": "Lisbon",
+      "country": "Portugal",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": 8.0378,
+        "longitude": -66.1348
+      }
+    },
+    "categories": [
+      "Modern Great Bridges",
+      "High-Level Achievements"
+    ],
+    "attributes": {
+      "length_meters": 2618,
+      "height_meters": 254,
+      "opened_year": 2017,
+      "type": "Truss"
+    },
+    "description": "Vasco da Gama Bridge is a remarkable truss bridge located in Lisbon, Portugal.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Vasco_da_Gama_Bridge#/media/File:Vasco_da_Gama_Bridge_aerial_view.jpg",
+      "images/vasco_da_gama_bridge_2.jpg"
+    ],
+    "history": "The Vasco da Gama Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a tourist attraction.",
+      "It spans over 1 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Vasco_da_Gama_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-097",
+    "name": "\u00d8resund Bridge",
+    "location": {
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": -75.3525,
+        "longitude": 50.2316
+      }
+    },
+    "categories": [
+      "Longest",
+      "Oldest",
+      "High-Level Achievements"
+    ],
+    "attributes": {
+      "length_meters": 1015,
+      "height_meters": 248,
+      "opened_year": 1952,
+      "type": "Suspension"
+    },
+    "description": "\u00d8resund Bridge is a remarkable suspension bridge located in Copenhagen, Denmark.",
+    "images": [
+      "https://en.wikipedia.org/wiki/%C3%98resund_Bridge#/media/File:%C3%98resund_Bridge_from_the_air_in_September_2015.jpg",
+      "images/\u00f8resund_bridge_2.jpg"
+    ],
+    "history": "The \u00d8resund Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a technical masterpiece.",
+      "It spans over 4 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/\u00d8resund_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-098",
+    "name": "Duge Bridge",
+    "location": {
+      "city": "Guizhou",
+      "country": "China",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": -40.8972,
+        "longitude": -67.3806
+      }
+    },
+    "categories": [
+      "Historical Great Bridges",
+      "Longest",
+      "Tallest"
+    ],
+    "attributes": {
+      "length_meters": 846,
+      "height_meters": 118,
+      "opened_year": 1893,
+      "type": "Beam"
+    },
+    "description": "Duge Bridge is a remarkable beam bridge located in Guizhou, China.",
+    "images": [
+      "https://en.wikipedia.org/wiki/Duge_Bridge#/media/File:Duge_Bridge.jpg",
+      "images/duge_bridge_2.jpg"
+    ],
+    "history": "The Duge Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a tourist attraction.",
+      "It spans over 2 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Duge_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-099",
+    "name": "Coronado Bridge",
+    "location": {
+      "city": "San Diego",
+      "country": "USA",
+      "continent": "Asia",
+      "coordinates": {
+        "latitude": 80.9031,
+        "longitude": 75.2809
+      }
+    },
+    "categories": [
+      "Tallest",
+      "Historical Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 1971,
+      "height_meters": 274,
+      "opened_year": 1912,
+      "type": "Beam"
+    },
+    "description": "Coronado Bridge is a remarkable beam bridge located in San Diego, USA.",
+    "images": [
+      "https://en.wikipedia.org/wiki/San_Diego%E2%80%93Coronado_Bridge#/media/File:San_Diego-Coronado_Bridge_by_Frank_Mckenna.jpg",
+      "images/coronado_bridge_2.jpg"
+    ],
+    "history": "The Coronado Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 1 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Coronado_Bridge"
+      }
+    ]
+  },
+  {
+    "id": "bridge-100",
+    "name": "George Washington Bridge",
+    "location": {
+      "city": "New Jersey",
+      "country": "USA",
+      "continent": "Europe",
+      "coordinates": {
+        "latitude": -38.7637,
+        "longitude": -36.7779
+      }
+    },
+    "categories": [
+      "High-Level Achievements",
+      "Longest",
+      "Modern Great Bridges"
+    ],
+    "attributes": {
+      "length_meters": 2651,
+      "height_meters": 81,
+      "opened_year": 1939,
+      "type": "Arch"
+    },
+    "description": "George Washington Bridge is a remarkable arch bridge located in New Jersey, USA.",
+    "images": [
+      "https://en.wikipedia.org/wiki/George_Washington_Bridge#/media/File:George_Washington_Bridge_from_New_Jersey-edit.jpg",
+      "images/george_washington_bridge_2.jpg"
+    ],
+    "history": "The George Washington Bridge was constructed as a marvel of its time and continues to draw attention today.",
+    "facts": [
+      "It is considered a historical monument.",
+      "It spans over 2 kilometers of water or land."
+    ],
+    "external_links": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/George_Washington_Bridge"
+      }
+    ]
+  }
+]
