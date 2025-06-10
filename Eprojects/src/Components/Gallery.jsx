@@ -4,11 +4,17 @@ const Gallery = () => {
   const [galleryImages, setGalleryImages] = useState([]);
 
   useEffect(() => {
-    fetch("/src/data/bridges.json")
+    fetch("/src/data/SamuelBridges.json")
       .then((response) => response.json())
       .then((data) => {
-        // Extract all image URLs from all bridges
-        const images = data.flatMap((bridge) => bridge.images).filter(Boolean);
+        // Extract first image URL from each unique bridge to avoid duplicates
+        const uniqueBridgesMap = new Map();
+        data.forEach((bridge) => {
+          if (bridge.images && bridge.images.length > 0 && !uniqueBridgesMap.has(bridge.id)) {
+            uniqueBridgesMap.set(bridge.id, bridge.images[0]);
+          }
+        });
+        const images = Array.from(uniqueBridgesMap.values());
         setGalleryImages(images);
       })
       .catch((error) => console.error("Error loading bridge images:", error));
