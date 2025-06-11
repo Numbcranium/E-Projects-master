@@ -2,9 +2,8 @@
 import { useParams } from "react-router-dom";
 
 const transportTimesPerKm = {
-  plane: 2, // minutes per km
-  train: 4,
-  car: 10,
+  plane: 10 / 60, // 10 seconds per km converted to minutes
+  train: 30 / 60, // 30 seconds per km converted to minutes
 };
 
 const BridgeDetail = () => {
@@ -78,8 +77,8 @@ const BridgeDetail = () => {
 
       let options = [];
 
-      if (bridgeContinent !== userContinent) {
-        // Different continents: only air travel
+      if (distanceKm >= 10000) {
+        // Distance 10000km or more: only plane
         options = [
           {
             mode: "Plane",
@@ -87,7 +86,7 @@ const BridgeDetail = () => {
           },
         ];
       } else {
-        // Same continent: show all modes
+        // Distance less than 10000km: show all transport modes
         options = [
           {
             mode: "Plane",
@@ -96,10 +95,6 @@ const BridgeDetail = () => {
           {
             mode: "Train",
             time: Math.round(distanceKm * transportTimesPerKm.train),
-          },
-          {
-            mode: "Car",
-            time: Math.round(distanceKm * transportTimesPerKm.car),
           },
         ];
       }
