@@ -30,10 +30,27 @@ const menuItems = [
   { key: "faq", label: "FAQ" }
 ];
 
+import { useLocation } from "react-router-dom";
+
 function App() {
   const [selectedMenu, setSelectedMenu] = React.useState("home");
   const [sidebarOpen, setSidebarOpen] = React.useState(false);
   const navigate = useNavigate();
+  const location = useLocation();
+
+  React.useEffect(() => {
+    // Sync selectedMenu with current path
+    const path = location.pathname.slice(1); // remove leading '/'
+    if (path === "") {
+      setSelectedMenu("home");
+    } else if (menuItems.some((item) => item.key === path)) {
+      setSelectedMenu(path);
+    } else if (path.startsWith("bridge/")) {
+      // Do not change selectedMenu on bridge detail page
+    } else {
+      setSelectedMenu("home");
+    }
+  }, [location]);
 
   const handleSelectMenu = (key) => {
     setSelectedMenu(key);

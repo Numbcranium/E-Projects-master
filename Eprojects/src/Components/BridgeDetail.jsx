@@ -109,6 +109,20 @@ const BridgeDetail = () => {
 
   return (
     <>
+      {/* <button
+        onClick={() => {
+          navigate(-1);
+        }}
+        style={{
+          margin: "1rem",
+          padding: "0.5rem 1rem",
+          position:"relative",top:"100px",left:"530px",
+          fontSize: "1rem",
+          cursor: "pointer",
+        }}
+      >
+        &larr; Back to Bridges
+      </button> */}
       <div
         className="bridge-detail"
         style={{
