@@ -182,8 +182,8 @@ const ReviewCarousel = () => {
             key={index}
             onClick={() => setCurrent(index)}
             style={{
-              width: "10px",
-              height: "10px",
+              width: "12px",
+              height: "12px",
               borderRadius: "50%",
               backgroundColor: current === index ? "white" : "#0071e3",
               cursor: "pointer",
