@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, useNavigate } from "react-router-dom";
+import { Routes, Route, useNavigate, useLocation } from "react-router-dom";
 import Homepage from "./Components/Homepage";
 import Header from "./Components/Header";
 import Menu from "./Components/Menu";
@@ -11,6 +11,7 @@ import Footer from "./Components/Footer";
 import ReviewCarousel from "./Components/ReviewCarousel";
 import BridgeDetail from "./Components/BridgeDetail";
 import FAQ from "./Components/FAQ";
+import FeedbackForm from "./Components/FeedbackForm";
 import "./App.css";
 
 // Menu items for sidebar navigation
@@ -29,8 +30,6 @@ const menuItems = [
   { key: "feedback", label: "Feedback" },
   { key: "faq", label: "FAQ" }
 ];
-
-import { useLocation } from "react-router-dom";
 
 function App() {
   const [selectedMenu, setSelectedMenu] = React.useState("home");
@@ -79,6 +78,7 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/sitemap" element={<Sitemap />} />
           <Route path="/faq" element={<FAQ />} />
+          <Route path="/feedback" element={<FeedbackForm />} />
           <Route
             path="/:category"
             element={<BridgeSection sectionTitle={menuItems.find((item) => item.key === selectedMenu)?.label} />}
