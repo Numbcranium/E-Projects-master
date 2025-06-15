@@ -15,7 +15,7 @@ const BridgeDetail = () => {
 
   useEffect(() => {
     // Fetch bridge data by id
-    fetch("/src/data/bridges.json")
+    fetch("/src/data/SamuelBridges.json")
       .then((res) => res.json())
       .then((data) => {
         const foundBridge = data.find((b) => b.id.toString() === id);
