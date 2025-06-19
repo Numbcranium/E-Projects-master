@@ -14,6 +14,8 @@ import FAQ from "./Components/FAQ";
 import FeedbackForm from "./Components/FeedbackForm";
 import "./App.css";
 
+import AboutUs from "./Components/AboutUs";
+
 // Menu items for sidebar navigation
 const menuItems = [
   { key: "home", label: "Home" },
@@ -28,7 +30,8 @@ const menuItems = [
   { key: "sitemap", label: "Site Map" },
   { key: "gallery", label: "Gallery" },
   { key: "feedback", label: "Feedback" },
-  { key: "faq", label: "FAQ" }
+  { key: "faq", label: "FAQ" },
+  { key: "about", label: "About Us" }
 ];
 
 function App() {
@@ -79,20 +82,21 @@ function App() {
           <Route path="/sitemap" element={<Sitemap />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/feedback" element={<FeedbackForm />} />
-          <Route
-            path="/:category"
-            element={<BridgeSection sectionTitle={menuItems.find((item) => item.key === selectedMenu)?.label} />}
-          />
-          <Route
-            path="*"
-            element={
-              <>
-                <h2>{menuItems.find((item) => item.key === selectedMenu)?.label}</h2>
-                <p>Content for {selectedMenu} will be displayed here.</p>
-              </>
-            }
-          />
-        </Routes>
+        <Route
+          path="/:category"
+          element={<BridgeSection sectionTitle={menuItems.find((item) => item.key === selectedMenu)?.label} />}
+        />
+        <Route path="/about" element={<AboutUs />} />
+        <Route
+          path="*"
+          element={
+            <>
+              <h2>{menuItems.find((item) => item.key === selectedMenu)?.label}</h2>
+              <p>Content for {selectedMenu} will be displayed here.</p>
+            </>
+          }
+        />
+      </Routes>
       </main>
       {selectedMenu === "home" && <ReviewCarousel />}
       <Footer />

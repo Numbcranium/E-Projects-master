@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import reviewBack from "../assets/review back.png";
 import "../App.css";
 
 const reviews = [
@@ -41,14 +42,30 @@ const ReviewCarousel = () => {
   };
 
   return (
-    <div className="review-carousel-container" style={{padding: "2rem", backgroundColor: "#f0f0f0", height:"100vh",justifyContent:"center", display: "flex", alignItems: "center"}}>
-    <section className="review-carousel" style={{backgroundColor: "#003a7c", color: "white", padding: "2rem", borderRadius: "20px", position: "relative",minWidth:"1000px", maxWidth: "1100px", margin: "auto",height:"400px"}}>
-      <div style={{display: "flex", gap: "2rem"}}>
+    <div className="review-carousel-container" style={{position: "relative", padding: "2rem", height:"100vh", justifyContent:"center", display: "flex", alignItems: "center"}}>
+      <div
+        style={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%",
+          backgroundImage: `url(${reviewBack})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          filter: "blur(4px)",
+          zIndex: 0,
+          backgroundColor: "rgba(0, 0, 139, 0.5)",
+          backgroundBlendMode: "overlay",
+        }}
+      />
+      <section className="review-carousel" style={{backgroundColor: "rgba(0, 58, 124, 0.8)", color: "white", padding: "2rem", borderRadius: "20px", position: "relative", minWidth:"700px", maxWidth: "800px", margin: "auto", height:"300px", zIndex: 1}}>
+        <div style={{display: "flex", gap: "2rem"}}>
         {/* Left panel */}
         <div
           style={{
             flex: "1",
-            backgroundColor: "#003a7c",
+            
             borderRadius: "10px",
             padding: "1.5rem",
             position: "relative",
@@ -60,8 +77,8 @@ const ReviewCarousel = () => {
             style={{
               backgroundColor: "#0071e3",
               borderRadius: "50%",
-              width: "150px",
-              height: "150px",
+              width: "140px",
+              height: "130px",
               display: "flex",
               justifyContent: "center",
               alignItems: "start",
@@ -81,7 +98,7 @@ const ReviewCarousel = () => {
             style={{
               marginTop: "90px",
               fontWeight: "700",
-              fontSize: "32px",
+              fontSize: "25px",
               lineHeight: "1.2",
               fontFamily: "'Georgia', serif",
               width:"80%",
@@ -144,16 +161,18 @@ const ReviewCarousel = () => {
         {/* Review cards */}
         <div style={{flex: "2", display: "flex", gap: "1rem"}}>
           {[reviews[current], reviews[(current + 1) % length]].map((review) => (
-            <div key={review.id} style={{width:"320px",backgroundColor: "white", color: "black", borderRadius: "20px", padding: "1rem", flex: "1", display: "flex", flexDirection: "column" ,position:"relative",top:"-150px"}}>
+            <div key={review.id} style={{width:"250px",backgroundColor: "white", color: "black", borderRadius: "20px", padding: "1rem", flex: "1", display: "flex", flexDirection: "column" ,position:"relative",top:"-150px" ,height:"400px"}}>
               <img
                 src={review.image}
                 alt={review.name}
-                style={{width: "110%", height: "250px", objectFit: "cover", borderRadius: "20px 20px 0px  60px",marginLeft:"-16px",marginTop:"-16px"}}
+                style={{width: "110%", height: "150px", objectFit: "cover", borderRadius: "20px 20px 0px  60px",marginLeft:"-16px",marginTop:"-16px"}}
               />
               <h3 style={{marginTop: "1rem", fontWeight: "bold"}}>{review.title}</h3>
-              <p style={{marginTop: "0.5rem", flexGrow: 1, fontSize: "0.9rem", lineHeight: "1.4"}}>
+              <div className="p-container" style={{height:""}}>
+              <p style={{marginTop: "0.5rem", flexGrow: 1,height:"200px", fontSize: "0.9rem", lineHeight: "1.4"}}>
                 {review.text}
               </p>
+              </div>
               <div style={{display: "flex", justifyContent: "space-between", alignItems: "center"}}>
                 <strong>{review.name}</strong>
                 <div>

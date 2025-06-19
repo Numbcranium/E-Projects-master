@@ -4,7 +4,7 @@ import '../App.css';
 
 const Homepage = () => {
   // Extract images from the first five bridge entries since fakuade hasnt added all of them yet
-  const allImages = bridges.slice(0, 5).flatMap(bridge => bridge.images);
+  const allImages = bridges.slice(0, 40).flatMap(bridge => bridge.images);
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
