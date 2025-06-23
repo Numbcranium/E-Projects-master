@@ -7,23 +7,38 @@ const Homepage = () => {
   const allImages = bridges.slice(0, 40).flatMap(bridge => bridge.images);
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [backgroundImage, setBackgroundImage] = useState(allImages[0]);
 
   useEffect(() => {
+    const preloadImage = (src) => {
+      return new Promise((resolve) => {
+        const img = new Image();
+        img.src = src;
+        img.onload = resolve;
+      });
+    };
+
     const interval = setInterval(() => {
-      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % allImages.length);
+      setCurrentImageIndex((prevIndex) => {
+        const nextIndex = (prevIndex + 1) % allImages.length;
+        preloadImage(allImages[nextIndex]).then(() => {
+          setBackgroundImage(allImages[nextIndex]);
+        });
+        return nextIndex;
+      });
     }, 8000); // 8 seconds per image
 
     return () => clearInterval(interval);
-  }, [allImages.length]);
+  }, [allImages]);
 
   return (
     <section
       className="homepage"
       style={{
-        backgroundImage: `url(${allImages[currentImageIndex]})`,
+        backgroundImage: `url(${backgroundImage})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
-        transition: "background-image 2s ease-in-out",
+        // Removed transition on background-image to avoid flicker
         minHeight: "100vh",
       }}
     >
