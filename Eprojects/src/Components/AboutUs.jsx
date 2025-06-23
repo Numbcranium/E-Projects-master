@@ -1,16 +1,21 @@
 import React from "react";
+import mypic from '../../../Eprojects/src/assets/my pic.jpg'; 
+import sampic from '../../../Eprojects/src/assets/samuel pic.jpg'
 
 const AboutUs = () => {
   return (
     <div style={{ padding: "2rem",  justifyContent: "space-between",  }}>
-      <h2 style={{ margin: 0, alignSelf: "flex-start",marginTop:"50px",marginBottom:"100px" }}>About us</h2>
+      <h2 style={{ margin: 0, alignSelf: "flex-start",marginTop:"50px",marginBottom:"100px", color:"wheat" }}>About us</h2>
       <div style={{ display: "flex", gap: "1rem",marginLeft:"350px",marginBottom:"80px" }}>
-        <div style={{ height: "250px", width: "200px", backgroundColor: "#ccc",borderRadius:"20px" }}></div>
-        <div style={{ height: "250px", width: "200px", backgroundColor: "#aaa",borderRadius:"20px" }}></div>
-        <div style={{ height: "250px", width: "200px", backgroundColor: "#888",borderRadius:"20px" }}></div>
+        
+        <div style={{ height: "250px", width: "200px", backgroundColor: "#aaa",borderRadius:"20px" ,backgroundImage: `url(${sampic})`, backgroundSize: "cover", backgroundPosition: "50%", }}></div>
+       <div style={{ height: "250px", width: "200px", backgroundColor: "#888",borderRadius:"20px" }}></div>
+       <div style={{ height: "250px", width: "200px", backgroundColor: "#ccc",borderRadius:"20px" ,backgroundImage: `url(${mypic})`, backgroundSize: "cover", backgroundPosition: "50%",  }}>
+        
+        </div>
       </div>
       <div style={{ maxWidth: "700px", marginLeft: "0px" }}>
-        <p style={{fontSize: "1.2rem", lineHeight: "1.6",fontWeight: "bold",fontFamily:"revert" , }}>
+        <p style={{fontSize: "1.2rem", lineHeight: "1.6",fontWeight: "bold",fontFamily:"revert" , color: "burlywood"}}>
           Welcome to our website dedicated to the world's most incredible bridges! We are a team of passionate
           individuals who believe that bridges are not just structures, but symbols of human ingenuity and connection.
           <br  />
@@ -21,7 +26,7 @@ const AboutUs = () => {
           we invite you to explore our collection of articles, images, and stories that celebrate the art and science of bridge building.
         </p>
     </div>
-    <div style={{fontWeight:"bolder",marginTop:"200px"}}>Company-Phone:</div>
+    <div style={{fontWeight:"bolder",marginTop:"200px"}}>Company-Phone:<i style={{color:"wheat"}}>+2347026852298</i></div>
     <div className="contact-info" style={{fontSize:"15px",marginTop:"20px",marginLeft:"70%",fontWeight:"bolder",}}>
       <div>Address:No11 Monarch Enterprise Street</div>
       <br />
