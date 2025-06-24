@@ -96,9 +96,9 @@ const ReviewCarousel = () => {
           </div>
           <h2
             style={{
-              marginTop: "90px",
+              marginTop: "60px",
               fontWeight: "700",
-              fontSize: "25px",
+              fontSize: "20px",
               lineHeight: "1.2",
               fontFamily: "'Georgia', serif",
               width:"80%",
@@ -106,7 +106,7 @@ const ReviewCarousel = () => {
           >
             What Our Customer Say
           </h2>
-          <p style={{ marginTop: "1rem", lineHeight: "1.6", fontSize: "1rem" }}>
+          <p style={{ marginTop: "1rem", lineHeight: "1.6", fontSize: "14px" }}>
             Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore.
           </p>
           <a
@@ -119,7 +119,7 @@ const ReviewCarousel = () => {
               textDecoration: "underline",
               cursor: "pointer",
               fontWeight: "500",
-              fontSize: "1rem",
+              fontSize: "14px",
               gap: "0.3rem",
             }}
           >
@@ -161,23 +161,23 @@ const ReviewCarousel = () => {
         {/* Review cards */}
         <div style={{flex: "2", display: "flex", gap: "1rem"}}>
           {[reviews[current], reviews[(current + 1) % length]].map((review) => (
-            <div key={review.id} style={{width:"250px",backgroundColor: "white", color: "black", borderRadius: "20px", padding: "1rem", flex: "1", display: "flex", flexDirection: "column" ,position:"relative",top:"-150px" ,height:"400px"}}>
+            <div key={review.id} style={{width:"230px",backgroundColor: "white", color: "black", borderRadius: "22px", padding: "1rem", flex: "1", display: "flex", flexDirection: "column" ,position:"relative",top:"-150px" ,height:"380px"}}>
               <img
                 src={review.image}
                 alt={review.name}
-                style={{width: "110%", height: "150px", objectFit: "cover", borderRadius: "20px 20px 0px  60px",marginLeft:"-16px",marginTop:"-16px"}}
+                style={{width: "114%", height: "170px", objectFit: "cover", borderRadius: "20px 20px 0px  50px",marginLeft:"-16px",marginTop:"-16px"}}
               />
-              <h3 style={{marginTop: "1rem", fontWeight: "bold"}}>{review.title}</h3>
+              <h3 style={{marginTop: "0.5rem", fontWeight: "bold", fontSize:"17px", marginBottom:"-5px"}}>{review.title}</h3>
               <div className="p-container" style={{height:""}}>
-              <p style={{marginTop: "0.5rem", flexGrow: 1,height:"200px", fontSize: "0.9rem", lineHeight: "1.4"}}>
+              <p style={{marginTop: "0.7rem", flexGrow: 1,height:"200px", fontSize: "13px", lineHeight: "1.5", fontFamily: "'Georgia', serif", color: "black"}}>
                 {review.text}
               </p>
               </div>
               <div style={{display: "flex", justifyContent: "space-between", alignItems: "center"}}>
-                <strong>{review.name}</strong>
-                <div>
+                <strong style={{color:"black" ,marginTop:"-90px"}}>{review.name}</strong>
+                <div style={{display: "flex",  marginTop:"-90px"}}>
                   {[...Array(review.rating)].map((_, i) => (
-                    <span key={i} style={{color: "#f5a623", fontSize: "1.2rem"}}>&#9733;</span>
+                    <span key={i} style={{color: "#f5a623", fontSize: "1.2rem", }}>&#9733;</span>
                   ))}
                 </div>
               </div>
@@ -187,15 +187,15 @@ const ReviewCarousel = () => {
       </div>
 
       {/* Navigation arrows */}
-      <button onClick={prevSlide} style={{position: "absolute", bottom: "50px", left: "420px", backgroundColor: "#0071e3", border: "none", borderRadius: "50%", width: "30px", height: "30px", color: "white", cursor: "pointer"}}>
+      <button onClick={prevSlide} style={{position: "absolute", bottom: "50px", left: "290px",marginBottom:"-20px", backgroundColor: "#0071e3", border: "none", borderRadius: "50%", width: "30px", height: "30px", color: "white", cursor: "pointer"}}>
         &#8249;
       </button>
-      <button onClick={nextSlide} style={{position: "absolute", bottom: "50px", right: "675px", backgroundColor: "#0071e3", border: "none", borderRadius: "50%", width: "30px", height: "30px", color: "white", cursor: "pointer"}}>
+      <button onClick={nextSlide} style={{position: "absolute", bottom: "50px", right: "505px",marginBottom:"-20px", backgroundColor: "#0071e3", border: "none", borderRadius: "50%", width: "30px", height: "30px", color: "white", cursor: "pointer"}}>
         &#8250;
       </button>
 
       {/* Pagination dots */}
-      <div style={{position: "absolute", bottom: "60px", right: "60px", display: "flex", gap: "5px"}}>
+      <div style={{position: "absolute", bottom: "40px", right: "60px", display: "flex", gap: "5px"}}>
         {reviews.map((_, index) => (
           <span
             key={index}

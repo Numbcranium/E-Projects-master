@@ -62,9 +62,9 @@ const BridgeSection = ({ sectionTitle }) => {
 
   return (
     <section className="bridge-section">
-      <h3>{sectionTitle}</h3>
+      <h3 style={{color:"wheat"}}>{sectionTitle}</h3>
       <div className="filter">
-        <label htmlFor="continent-select">Filter by Continent: </label>
+        <label style={{color:"wheat"}} htmlFor="continent-select">Filtered by Continent: </label>
         <select
           id="continent-select"
           value={selectedContinent}

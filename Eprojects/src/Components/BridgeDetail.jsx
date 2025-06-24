@@ -131,6 +131,7 @@ const BridgeDetail = () => {
           padding: "2rem",
           color: "black",
           gap: "2rem",
+        
         }}
       >
         <div
@@ -153,6 +154,7 @@ const BridgeDetail = () => {
             flexDirection: "column",
             justifyContent: "center",
             padding: "1rem",
+            color:"wheat"
           }}
         >
           <h1>{bridge.name}</h1>
@@ -164,7 +166,7 @@ const BridgeDetail = () => {
         style={{
           marginTop: "-200px",
           padding: "1rem",
-          backgroundColor: "#f0f0f0",
+          backgroundColor: "whitesmoke",
           borderRadius: "10px",
           color: "black",
           width:"90vw",
@@ -190,6 +192,7 @@ const BridgeDetail = () => {
           <p>Unable to determine your location to show transport options.</p>
         )}
       </div>
+      <div style={{height:"500px", width:"100%", backgroundColor:"black", zIndex:"10",marginBottom:"-600px"}}></div>
     </>
   );
 };
