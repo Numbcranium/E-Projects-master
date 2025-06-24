@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import bridges from "../data/bridges.json";
+import bridges from "../data/SamuelBridges.json";
 import '../App.css';
 
 const Homepage = () => {
