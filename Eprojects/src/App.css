@@ -2,7 +2,10 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: whitesmoke;
+  /* background-color: rgba(0, 0, 0, 0.863); */
+  background-image: url(./assets/Starry-Night-Clouds-Wallpaper-Mural.jpg);
+  background-position: 50%;
+  background-size: cover;
   color: black;
 }
 .logo-visitor>img{
