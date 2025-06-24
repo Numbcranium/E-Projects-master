@@ -15,6 +15,7 @@ const categoryMapping = {
 
 const BridgeSection = ({ sectionTitle }) => {
   const [selectedContinent, setSelectedContinent] = useState("All");
+  const [searchTerm, setSearchTerm] = useState("");
   const [bridges, setBridges] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const bridgesPerPage = 10;
@@ -27,9 +28,6 @@ const BridgeSection = ({ sectionTitle }) => {
   }, []);
 
   const filteredBridges = bridges.filter((bridge) => {
-    const matchesContinent =
-      selectedContinent === "All" || bridge.location.continent === selectedContinent;
-
     const mappedCategories = categoryMapping[sectionTitle] || [sectionTitle];
 
     const matchesCategory =
@@ -41,7 +39,18 @@ const BridgeSection = ({ sectionTitle }) => {
         )
       );
 
-    return matchesContinent && matchesCategory;
+    if (searchTerm.trim() !== "") {
+      // Filter by bridge name starting with searchTerm (case-insensitive)
+      return (
+        bridge.name.toLowerCase().startsWith(searchTerm.toLowerCase()) &&
+        matchesCategory
+      );
+    } else {
+      // Filter by continent and category if no search term
+      const matchesContinent =
+        selectedContinent === "All" || bridge.location.continent === selectedContinent;
+      return matchesContinent && matchesCategory;
+    }
   });
 
   // Deduplicate filteredBridges by id
@@ -63,7 +72,7 @@ const BridgeSection = ({ sectionTitle }) => {
   return (
     <section className="bridge-section">
       <h3 style={{color:"wheat"}}>{sectionTitle}</h3>
-      <div className="filter">
+      <div className="filter" style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
         <label style={{color:"wheat"}} htmlFor="continent-select">Filtered by Continent: </label>
         <select
           id="continent-select"
@@ -79,6 +88,16 @@ const BridgeSection = ({ sectionTitle }) => {
             </option>
           ))}
         </select>
+        <input
+          type="text"
+          placeholder="Search bridges by name"
+          value={searchTerm}
+          onChange={(e) => {
+            setSearchTerm(e.target.value);
+            setCurrentPage(1); // Reset to first page on search change
+          }}
+          style={{ padding: "0.25rem 0.5rem", borderRadius: "4px", border: "1px solid #ccc" }}
+        />
       </div>
       <div className="bridge-list">
         {currentBridges.map((bridge) => (
