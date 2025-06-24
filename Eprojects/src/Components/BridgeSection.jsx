@@ -16,6 +16,7 @@ const categoryMapping = {
 const BridgeSection = ({ sectionTitle }) => {
   const [selectedContinent, setSelectedContinent] = useState("All");
   const [searchTerm, setSearchTerm] = useState("");
+  const [showSearchBar, setShowSearchBar] = useState(false);
   const [bridges, setBridges] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const bridgesPerPage = 10;
@@ -88,16 +89,53 @@ const BridgeSection = ({ sectionTitle }) => {
             </option>
           ))}
         </select>
-        <input
-          type="text"
-          placeholder="Search bridges by name"
-          value={searchTerm}
-          onChange={(e) => {
-            setSearchTerm(e.target.value);
-            setCurrentPage(1); // Reset to first page on search change
-          }}
-          style={{ padding: "0.25rem 0.5rem", borderRadius: "4px", border: "1px solid #ccc" }}
-        />
+        {!showSearchBar && (
+          <button
+            onClick={() => setShowSearchBar(true)}
+            aria-label="Show search bar"
+            style={{
+              background: "none",
+              border: "none",
+              color: "wheat",
+              cursor: "pointer",
+              fontSize: "1.2rem",
+              padding: 0,
+              
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="40"
+              viewBox="0 0 24 24"
+              width="40"
+              fill="wheat"
+            >
+              <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zM9.5 14C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+              <path d="M0 0h24v24H0z" fill="none"/>
+            </svg>
+          </button>
+        )}
+        {showSearchBar && (
+          <div
+            onMouseLeave={() => setShowSearchBar(false)}
+            style={{ display: "inline-block" }}
+          >
+            <input
+              type="text"
+              placeholder="Search bridges by name"
+              value={searchTerm}
+              onChange={(e) => {
+                setSearchTerm(e.target.value);
+                setCurrentPage(1); // Reset to first page on search change
+              }}
+              autoFocus
+              style={{ padding: "0.25rem 0.5rem", borderRadius: "4px", border: "1px solid #ccc" }}
+            />
+          </div>
+        )}
       </div>
       <div className="bridge-list">
         {currentBridges.map((bridge) => (
