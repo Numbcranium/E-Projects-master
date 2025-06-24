@@ -98,7 +98,7 @@ function App() {
         />
       </Routes>
       </main>
-      {selectedMenu === "home" && <ReviewCarousel />}
+      {selectedMenu === "home" }
       <Footer />
     </>
   );

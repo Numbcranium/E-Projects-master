@@ -164,7 +164,7 @@ const BridgeDetail = () => {
       <div
         className="transport-options"
         style={{
-          marginTop: "-200px",
+          marginTop: "-100px",
           padding: "1rem",
           backgroundColor: "whitesmoke",
           borderRadius: "10px",
@@ -192,7 +192,46 @@ const BridgeDetail = () => {
           <p>Unable to determine your location to show transport options.</p>
         )}
       </div>
-      <div style={{height:"500px", width:"100%", backgroundColor:"black", zIndex:"10",marginBottom:"-600px"}}></div>
+      <div
+        className="bridge-attributes"
+        style={{
+          marginTop: "50px",
+          padding: "0rem",
+          borderRadius: "10px",
+          overflow: "hidden",
+          fontFamily: "'Arial Black', Arial, sans-serif",
+          color: "black",
+          width: "50vw",
+          maxWidth: "35vw",
+          marginLeft:"58%",
+          zIndex:"100",
+          backgroundColor: "whitesmoke",
+        }}
+      >
+        <div style={{ justifyContent: "space-between", alignItems: "center" , width:"100%",height:"50px", backgroundColor: "red",fontSize:"25px", fontFamily:"sans-serif", padding:"10px 100px 0 "}}>STATS AND FACTS</div>
+        <div style={{ backgroundColor: "#f4a261", padding: "1rem", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+          <div>
+            <div style={{ fontSize: "1.5rem", fontWeight: "bold" }}>Height</div>
+            <div style={{ fontSize: "1rem" }}>{bridge.attributes.height_meters} meters</div>
+          </div>
+          <div style={{ fontSize: "2rem", fontWeight: "bold" }}>01</div>
+        </div>
+        <div style={{ backgroundColor: "#e9c46a", padding: "1rem", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+          <div>
+            <div style={{ fontSize: "1.5rem", fontWeight: "bold" }}>Year Created</div>
+            <div style={{ fontSize: "1rem" }}>{bridge.attributes.opened_year}</div>
+          </div>
+          <div style={{ fontSize: "2rem", fontWeight: "bold" }}>02</div>
+        </div>
+        <div style={{ backgroundColor: "#264653", color: "white", padding: "1rem", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+          <div>
+            <div style={{ fontSize: "1.5rem", fontWeight: "bold" }}>Length</div>
+            <div style={{ fontSize: "1rem" }}>{bridge.attributes.length_meters} meters</div>
+          </div>
+          <div style={{ fontSize: "2rem", fontWeight: "bold" }}>03</div>
+        </div>
+      </div>
+      {/* <div style={{height:"500px", width:"100%", backgroundColor:"black", zIndex:"10",marginBottom:"-500px"}}></div> */}
     </>
   );
 };
