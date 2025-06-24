@@ -3,7 +3,7 @@ import bridges from "../data/bridges.json";
 import '../App.css';
 
 const Homepage = () => {
-  // Extract images from the first five bridge entries since fakuade hasnt added all of them yet
+  // Extract images from the first five bridge entries 
   const allImages = bridges.slice(0, 40).flatMap(bridge => bridge.images);
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
