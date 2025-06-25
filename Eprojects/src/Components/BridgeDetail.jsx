@@ -1,5 +1,6 @@
   import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import BridgeMap from "./BridgeMap";
 
 const transportTimesPerKm = {
   plane: 10 / 60, // 10 seconds per km converted to minutes
@@ -193,7 +194,6 @@ const BridgeDetail = () => {
         )}
       </div>
       <div className="bridgemap">
-
 
       </div>
       <div

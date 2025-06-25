@@ -1,9 +1,8 @@
-
+// components/BridgeMap.jsx
 import React from 'react';
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
-
 
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({
@@ -12,22 +11,21 @@ L.Icon.Default.mergeOptions({
   shadowUrl: new URL('leaflet/dist/images/marker-shadow.png', import.meta.url),
 });
 
-// Component to fly to a new location when bridge changes
-function ChangeMapView({ center }) {
+const ChangeMapView = ({ center }) => {
   const map = useMap();
   map.setView(center, 10);
   return null;
-}
+};
 
 const BridgeMap = ({ bridge }) => {
   const position = [bridge.latitude, bridge.longitude];
 
   return (
-    <MapContainer center={position} zoom={10} style={{ height: '500px', width: '100%' }}>
+    <MapContainer center={position} zoom={10} style={{ height: '400px', width: '100%' }}>
       <ChangeMapView center={position} />
       <TileLayer
-        attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a>'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        attribution='&copy; OpenStreetMap contributors'
       />
       <Marker position={position}>
         <Popup>{bridge.name}</Popup>
