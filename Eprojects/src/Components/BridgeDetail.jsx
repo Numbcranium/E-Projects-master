@@ -207,7 +207,7 @@ const BridgeDetail = () => {
       <div
         className="bridge-attributes"
         style={{
-          marginTop: "50px",
+          marginTop: "0px",
           padding: "0rem",
           borderRadius: "10px",
           overflow: "hidden",
