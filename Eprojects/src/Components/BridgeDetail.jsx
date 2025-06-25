@@ -193,7 +193,7 @@ const BridgeDetail = () => {
           <p>Unable to determine your location to show transport options.</p>
         )}
       </div>
-      <div className="bridgemap">
+      <div className="bridgemap" >
 
       </div>
       <div

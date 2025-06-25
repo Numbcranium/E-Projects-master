@@ -215,12 +215,15 @@ main.main-content {
 }
 
 .bridgemap{
-  height: 300px;
+  height: 330px;
   width: 700px;
-  background-color: #004080;
+  background-color: grey;
   margin-right: 38%;
   border-radius: 10px;
   padding: 0rem;
+  margin-top: -300px;/*its margin controls both margin tops dont change it*/
+  position: relative;
+  top: 380px;
 }
 
 .pagination {
