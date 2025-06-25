@@ -17,18 +17,22 @@ const ChangeMapView = ({ center }) => {
   return null;
 };
 
-const BridgeMap = ({ bridge }) => {
-  const position = [bridge.latitude, bridge.longitude];
+const BridgeMap = ({ latitude, longitude, name }) => {
+  if (typeof latitude !== 'number' || typeof longitude !== 'number') {
+    return <p>Invalid map coordinates.</p>;
+  }
+
+  const position = [latitude, longitude];
 
   return (
     <MapContainer center={position} zoom={10} style={{ height: '400px', width: '100%' }}>
       <ChangeMapView center={position} />
       <TileLayer
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        attribution='&copy; OpenStreetMap contributors'
+        url="https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png"
+        attribution='&copy; OpenStreetMap contributors, &copy; CartoDB'
       />
       <Marker position={position}>
-        <Popup>{bridge.name}</Popup>
+        <Popup>{name}</Popup>
       </Marker>
     </MapContainer>
   );

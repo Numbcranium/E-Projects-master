@@ -194,7 +194,15 @@ const BridgeDetail = () => {
         )}
       </div>
       <div className="bridgemap" >
-
+        {bridge && bridge.location && bridge.location.coordinates && typeof bridge.location.coordinates.latitude === 'number' && typeof bridge.location.coordinates.longitude === 'number' ? (
+          <BridgeMap 
+            latitude={bridge.location.coordinates.latitude} 
+            longitude={bridge.location.coordinates.longitude} 
+            name={bridge.name}
+          />
+        ) : (
+          <p>Map data not available for this bridge.</p>
+        )}
       </div>
       <div
         className="bridge-attributes"
