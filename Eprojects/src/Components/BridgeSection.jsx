@@ -45,7 +45,7 @@ const BridgeSection = ({ sectionTitle }) => {
       return (
         bridge.name.toLowerCase().startsWith(searchTerm.toLowerCase()) &&
         matchesCategory
-      );
+      )
     } else {
       // Filter by continent and category if no search term
       const matchesContinent =
