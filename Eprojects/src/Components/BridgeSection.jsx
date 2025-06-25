@@ -22,7 +22,7 @@ const BridgeSection = ({ sectionTitle }) => {
   const bridgesPerPage = 10;
 
   useEffect(() => {
-    fetch("/src/data/SamuelBridges.json")
+    fetch("/data/SamuelBridges.json")
       .then((response) => response.json())
       .then((data) => setBridges(data))
       .catch((error) => console.error("Error loading bridge data:", error));

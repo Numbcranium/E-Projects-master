@@ -16,7 +16,7 @@ const BridgeDetail = () => {
 
   useEffect(() => {
     // Fetch bridge data by id
-    fetch("/src/data/SamuelBridges.json")
+    fetch("/data/SamuelBridges.json")
       .then((res) => res.json())
       .then((data) => {
         const foundBridge = data.find((b) => b.id.toString() === id);
@@ -215,7 +215,8 @@ const BridgeDetail = () => {
           color: "black",
           width: "50vw",
           maxWidth: "35vw",
-          marginLeft:"58%",
+         
+          marginLeft:"38%",
           zIndex:"100",
           backgroundColor: "whitesmoke",
         }}

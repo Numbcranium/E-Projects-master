@@ -4,7 +4,7 @@ const Gallery = () => {
   const [galleryImages, setGalleryImages] = useState([]);
 
   useEffect(() => {
-    fetch("/src/data/SamuelBridges.json")
+    fetch("/data/SamuelBridges.json")
       .then((response) => response.json())
       .then((data) => {
         // Extract first image URL from each unique bridge to avoid duplicates
