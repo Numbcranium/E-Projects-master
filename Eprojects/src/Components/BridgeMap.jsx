@@ -36,6 +36,6 @@ const BridgeMap = ({ latitude, longitude, name }) => {
       </Marker>
     </MapContainer>
   );
-};
+}
 
 export default BridgeMap;
