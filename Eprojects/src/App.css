@@ -458,6 +458,8 @@ main.main-content {
   max-width: 600px;
   position: relative;
   perspective: 1000px;
+  height: 350px;
+  ;
 
 }
 
@@ -588,12 +590,14 @@ main.main-content {
 }
 
 .aboutus-image.sampic {
-  background-image: url('../src/assets/samuel\ pic.jpg');
+  background-image: url('../src/assets/samuelNew\ pic.jpg');
   background-color: #aaa;
+
 }
 
 .aboutus-image.placeholder {
   background-color: #888;
+  background-image: url('../src/assets/mann\ pic.jpg');
 }
 
 .aboutus-image.mypic {
