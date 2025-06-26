@@ -40,7 +40,8 @@
 // export default AboutUs;
 import React from "react";
 import mypic from '../../../Eprojects/src/assets/my pic.jpg'; 
-import sampic from '../../../Eprojects/src/assets/samuel pic.jpg'
+import sampic from '../../../Eprojects/src/assets/samuelNew pic.jpg'
+import manpic from '../../../Eprojects/src/assets/mann pic.jpg'
 
 const AboutUs = () => {
   return (
