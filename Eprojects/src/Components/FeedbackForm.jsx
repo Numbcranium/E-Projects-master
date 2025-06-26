@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const FeedbackForm = () => {
+const FeedbackForm = ({ onAddReview }) => {
   const [formData, setFormData] = useState({
     fullName: "",
     title: "",
@@ -8,6 +8,8 @@ const FeedbackForm = () => {
     rating: "5",
     photo: null,
   });
+
+  const [error, setError] = useState("");
 
   const handleChange = (e) => {
     const { name, value, files } = e.target;
@@ -19,8 +21,31 @@ const FeedbackForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Submitted Data:", formData);
-    // You can store this in a backend or state for display
+    // Validate message minimum 20 words
+    const wordCount = formData.message.trim().split(/\s+/).length;
+    if (wordCount < 20) {
+      setError("Message must be at least 20 words.");
+      return;
+    }
+    setError("");
+    // Prepare new review object
+    const newReview = {
+      id: Date.now(),
+      name: formData.fullName,
+      title: formData.title,
+      text: formData.message,
+      rating: parseInt(formData.rating, 10),
+      image: formData.photo ? URL.createObjectURL(formData.photo) : "",
+    };
+    onAddReview(newReview);
+    // Reset form
+    setFormData({
+      fullName: "",
+      title: "",
+      message: "",
+      rating: "5",
+      photo: null,
+    });
   };
 
   const styles = {
@@ -112,6 +137,7 @@ const FeedbackForm = () => {
               placeholder="e.g. Ray Robertson"
               style={styles.input}
               onChange={handleChange}
+              value={formData.fullName}
               required
             />
           </div>
@@ -125,6 +151,7 @@ const FeedbackForm = () => {
               placeholder="e.g. ABC treks with Global Treks Guide"
               style={styles.input}
               onChange={handleChange}
+              value={formData.title}
               required
             />
           </div>
@@ -137,8 +164,10 @@ const FeedbackForm = () => {
               placeholder="Write your experience..."
               style={styles.textarea}
               onChange={handleChange}
+              value={formData.message}
               required
             />
+            {error && <p style={{color: "red", fontSize: "12px"}}>{error}</p>}
           </div>
 
           {/* Upload Photo */}

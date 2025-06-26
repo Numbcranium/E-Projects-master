@@ -3,7 +3,7 @@ import bridges from "../data/SamuelBridges.json";
 import '../App.css';
 import reviewBack from "../assets/review back.png";
 
-const reviews = [
+const initialReviews = [
   {
     id: 1,
     name: "Ray Robertson",
@@ -29,8 +29,9 @@ const reviews = [
     rating: 5,
   },
 ];
+
 const Homepage = () => {
-  //review carousel interchange
+  const [reviews, setReviews] = useState(initialReviews);
   const [current, setCurrent] = useState(0);
   const length = reviews.length;
 
@@ -107,7 +108,7 @@ const Homepage = () => {
           backgroundBlendMode: "overlay",
         }}
       />
-      <section className="review-carousel" style={{backgroundColor: "rgba(0, 58, 124, 0.8)", color: "white", padding: "2rem", borderRadius: "20px", position: "relative", minWidth:"700px", maxWidth: "800px", margin: "auto", height:"300px", zIndex: 1}}>
+      <section className="review-carousel" style={{backgroundColor: "rgba(0, 58, 124, 0.8)", color: "white", padding: "2rem", borderRadius: "20px", position: "relative", marginTop:"150px", minWidth:"700px", maxWidth: "800px", margin: "auto", height:"35 0px", zIndex: 1}}>
         <div style={{display: "flex", gap: "2rem"}}>
         {/* Left panel */}
         <div
@@ -206,18 +207,18 @@ const Homepage = () => {
           </a>
         </div>
 
-        {/* Review cards */}
+        {/* Review cards */} 
         <div style={{flex: "2", display: "flex", gap: "1rem"}}>
           {[reviews[current], reviews[(current + 1) % length]].map((review) => (
-            <div key={review.id} style={{width:"230px",backgroundColor: "white", color: "black", borderRadius: "22px", padding: "1rem", flex: "1", display: "flex", flexDirection: "column" ,position:"relative",top:"-150px" ,height:"380px"}}>
+            <div key={review.id} style={{width:"230px",backgroundColor: "white", color: "black", borderRadius: "22px", padding: "1rem", flex: "1", display: "flex", flexDirection: "column" ,position:"relative",top:"-170px" ,height:"410px"}}>
               <img
                 src={review.image}
                 alt={review.name}
-                style={{width: "114%", height: "170px", objectFit: "cover", borderRadius: "20px 20px 0px  50px",marginLeft:"-16px",marginTop:"-16px"}}
+                style={{width: "114%", height: "170px", objectFit: "cover", borderRadius: "20px 20px 0px  40px",marginLeft:"-16px",marginTop:"-16px"}}
               />
-              <h3 style={{marginTop: "0.5rem", fontWeight: "bold", fontSize:"17px", marginBottom:"-5px"}}>{review.title}</h3>
+              <h3 style={{marginTop: "0.5rem", fontWeight: "bold", fontSize:"14px", marginBottom:"-5px"}}>{review.title}</h3>
               <div className="p-container" style={{height:""}}>
-              <p style={{marginTop: "0.7rem", flexGrow: 1,height:"200px", fontSize: "13px", lineHeight: "1.5", fontFamily: "'Georgia', serif", color: "black"}}>
+              <p style={{marginTop: "0.7rem", flexGrow: 1,height:"200px", fontSize: "12px", lineHeight: "1.5", fontFamily: "'Georgia', serif", color: "black"}}>
                 {review.text}
               </p>
               </div>
@@ -235,15 +236,15 @@ const Homepage = () => {
       </div>
 
       {/* Navigation arrows */}
-      <button onClick={prevSlide} style={{position: "absolute", bottom: "50px", left: "290px",marginBottom:"-20px", backgroundColor: "#0071e3", border: "none", borderRadius: "50%", width: "30px", height: "30px", color: "white", cursor: "pointer"}}>
+      <button onClick={prevSlide} style={{position: "absolute", bottom: "40px", left: "295px",marginBottom:"-20px", backgroundColor: "#0071e3", border: "none", borderRadius: "50%", width: "30px", height: "30px", color: "white", cursor: "pointer"}}>
         &#8249;
       </button>
-      <button onClick={nextSlide} style={{position: "absolute", bottom: "50px", right: "505px",marginBottom:"-20px", backgroundColor: "#0071e3", border: "none", borderRadius: "50%", width: "30px", height: "30px", color: "white", cursor: "pointer"}}>
+      <button onClick={nextSlide} style={{position: "absolute", bottom: "40px", right: "440px",marginBottom:"-20px", backgroundColor: "#0071e3", border: "none", borderRadius: "50%", width: "30px", height: "30px", color: "white", cursor: "pointer"}}>
         &#8250;
       </button>
 
       {/* Pagination dots */}
-      <div style={{position: "absolute", bottom: "40px", right: "60px", display: "flex", gap: "5px"}}>
+      <div style={{position: "absolute", bottom: "30px", right: "60px", display: "flex", gap: "5px"}}>
         {reviews.map((_, index) => (
           <span
             key={index}
