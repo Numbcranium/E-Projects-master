@@ -1,6 +1,7 @@
 import React from "react";
 import mypic from '../../../Eprojects/src/assets/my pic.jpg'; 
-import sampic from '../../../Eprojects/src/assets/samuel pic.jpg'
+import sampic from '../../../Eprojects/src/assets/samuelNew pic.jpg'
+import manpic from '../../../Eprojects/src/assets/mann pic.jpg'
 
 const AboutUs = () => {
   return (
@@ -8,9 +9,9 @@ const AboutUs = () => {
       <h2 style={{ margin: 0, alignSelf: "flex-start",marginTop:"50px",marginBottom:"100px", color:"wheat" }}>About us</h2>
       <div style={{ display: "flex", gap: "1rem",marginLeft:"350px",marginBottom:"80px" }}>
         
-        <div style={{ height: "250px", width: "200px", backgroundColor: "#aaa",borderRadius:"20px" ,backgroundImage: `url(${sampic})`, backgroundSize: "cover", backgroundPosition: "50%", }}></div>
-       <div style={{ height: "250px", width: "200px", backgroundColor: "#888",borderRadius:"20px" }}></div>
-       <div style={{ height: "250px", width: "200px", backgroundColor: "#ccc",borderRadius:"20px" ,backgroundImage: `url(${mypic})`, backgroundSize: "cover", backgroundPosition: "50%",  }}>
+        <div style={{ height: "250px", width: "200px", backgroundColor: "#aaa",borderRadius:"20px" ,backgroundImage: `url(${sampic})`, backgroundSize: "600px", backgroundRepeat:"no-repeat", backgroundPosition: "60%",backgroundPositionY:"45%" }}></div>
+       <div style={{ height: "250px", width: "200px", backgroundColor: "#888",borderRadius:"20px" ,backgroundImage: `url(${mypic})`, backgroundSize: "cover", backgroundPosition: "50%",}}></div>
+       <div style={{ height: "250px", width: "200px", backgroundColor: "#ccc",borderRadius:"20px" ,backgroundImage: `url(${manpic})`, backgroundSize: "cover", backgroundPosition: "50%",  }}>
         
         </div>
       </div>
