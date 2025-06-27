@@ -589,19 +589,19 @@ main.main-content {
   background-position: 50%;
 }
 
-.aboutus-image.sampic {
-  background-image: url('../src/assets/samuelNew\ pic.jpg');
+.sampic {
+  background-image: url(../src/assets/SamuelFinal\ .jpg);
   background-color: #aaa;
 
 }
 
-.aboutus-image.placeholder {
+.placeholder {
   background-color: #888;
-  background-image: url('../src/assets/mann\ pic.jpg');
+  background-image: url(../src/assets/mann\ pic.jpg);
 }
 
-.aboutus-image.mypic {
-  background-image: url('../src/assets/my\ pic.jpg');
+.mypic {
+  background-image: url(../src/assets/my\ pic.jpg);
   background-color: #ccc;
 }
 
