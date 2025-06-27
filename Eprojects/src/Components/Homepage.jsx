@@ -9,7 +9,7 @@ const initialReviews = [
     name: "Ray Robertson",
     title: "ABC treks with Global Treks Guide",
     image: "https://randomuser.me/api/portraits/men/32.jpg",
-    text: "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore. Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore. Lorem Ipsum Dolor Sit Amet.",
+    text: "My experience with Global Treks was absolutely phenomenal. The guide was user friendly, knowledgable, and made the entire journey smooth and exciting. I highly recommend them for anyone looking for adventure.",
     rating: 5,
   },
   {
@@ -17,7 +17,7 @@ const initialReviews = [
     name: "Tom Cruise",
     title: "ABC treks with Global Treks Guide",
     image: "https://randomuser.me/api/portraits/men/75.jpg",
-    text: "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore. Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore. Lorem Ipsum Dolor Sit Amet.",
+    text: "I've traveled with several tour companies, but none matched the quality and passion of Global Treks. From the start to finish, it was well-organized and filled with breathtaking views and unforgettable moments.",
     rating: 5,
   },
   {
@@ -25,7 +25,7 @@ const initialReviews = [
     name: "Person three",
     title: "ABC treks with Global Treks Guide",
     image: "https://randomuser.me/api/portraits/men/12.jpg",
-    text: "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore. Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore. Lorem Ipsum Dolor Sit Amet.",
+    text: "I couldn't have asked for a better adventure. The team was incredibly supportive and made sure everyone felt safe and included. Every detail was taken care of, allowing me to fully enjoy the experience.",
     rating: 5,
   },
 ];
@@ -156,7 +156,7 @@ const Homepage = () => {
             What Our Customer Say
           </h2>
           <p style={{ marginTop: "1rem", lineHeight: "1.6", fontSize: "14px" }}>
-            Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore.
+            We value our customers and their unforgettable experiences. Here's what some of them had to say about our services. Reliable, professional, and truly memorable.
           </p>
           <a
             href="#"
