@@ -594,18 +594,18 @@ main.main-content {
 }
 
 .sampic {
-  background-image: url(../src/assets/SamuelFinal\ .jpg);
+  background-image: url(../src/assets/SamuelFinal.jpg);
   background-color: #aaa;
 
 }
 
 .placeholder {
   background-color: #888;
-  background-image: url(../src/assets/mann\ pic.jpg);
+  background-image: url(../src/assets/mannpic.jpg);
 }
 
 .mypic {
-  background-image: url(../src/assets/my\ pic.jpg);
+  background-image: url(../src/assets/mypic.jpg);
   background-color: #ccc;
 }
 
