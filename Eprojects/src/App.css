@@ -465,7 +465,108 @@ main.main-content {
   perspective: 1000px;
   height: 350px;
   ;
+}
 
+@media (max-width: 1024px) {
+  .review-carousel {
+    max-width: 100%;
+    height: auto;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    perspective: none;
+  }
+  .carousel-wrapper {
+    position: static;
+    height: auto;
+    overflow: visible;
+    width: 100%;
+  }
+  .slide {
+    position: relative !important;
+    width: 90% !important;
+    margin: 10px 0;
+    padding: 1rem !important;
+    opacity: 1 !important;
+    transform: none !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  .activeSlide, .lastSlide, .nextSlide {
+    opacity: 1 !important;
+    transform: none !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  .review-text {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .review-carousel {
+    max-width: 100%;
+    height: auto;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    perspective: none;
+  }
+  .carousel-wrapper {
+    position: static;
+    height: auto;
+    overflow: visible;
+    width: 100%;
+  }
+  .slide {
+    position: relative !important;
+    width: 95% !important;
+    margin: 8px 0;
+    padding: 0.8rem !important;
+    opacity: 1 !important;
+    transform: none !important;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  }
+  .activeSlide, .lastSlide, .nextSlide {
+    opacity: 1 !important;
+    transform: none !important;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  }
+  .review-text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .review-carousel {
+    max-width: 100%;
+    height: auto;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    perspective: none;
+  }
+  .carousel-wrapper {
+    position: static;
+    height: auto;
+    overflow: visible;
+    width: 100%;
+  }
+  .slide {
+    position: relative !important;
+    width: 100% !important;
+    margin: 6px 0;
+    padding: 0.6rem !important;
+    opacity: 1 !important;
+    transform: none !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  .activeSlide, .lastSlide, .nextSlide {
+    opacity: 1 !important;
+    transform: none !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  .review-text {
+    font-size: 0.8rem;
+  }
 }
 
 
