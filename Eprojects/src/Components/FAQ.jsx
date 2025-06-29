@@ -3,19 +3,29 @@ import dogImage from "../assets/puppy.jpg";
 
 const faqData = [
   {
-    question: "How will DoggieLawn help me?",
+    question: "What is the purpose of this site?",
     answer:
-      "DoggieLawn is an innovative, natural indoor dog potty that pets and humans alike love. It uses authentic grass with naturally-occurring microbes that break down dog urine, eliminating smells while providing a natural environment for your pup.",
+      "This site is dedicated to providing comprehensive information and resources about bridges, including their history, design, and significance.",
   },
   {
-    question: "What sizes do you offer?",
+    question: "How can I find detailed information about a specific bridge?",
     answer:
-      "We offer multiple sizes to fit your home and your dog's needs. Please check our shop page for detailed size options.",
+      "You can use the search or map features to locate a bridge and view detailed information including images, history, and technical specifications.",
   },
   {
-    question: "How do I know which subscription is best for me and my furry friend?",
+    question: "Can I contribute information or photos to the site?",
     answer:
-      "Our subscription plans are tailored to your dog's size and usage. Contact our support for personalized recommendations.",
+      "Yes, we welcome contributions! Please use the contact form to submit your information or photos for review and inclusion.",
+  },
+  {
+    question: "Is the information on this site regularly updated?",
+    answer:
+      "We strive to keep the content accurate and up-to-date by regularly reviewing and adding new information and user contributions.",
+  },
+  {
+    question: "Who can I contact for support or inquiries?",
+    answer:
+      "You can reach out to our support team via the contact page for any questions or assistance you may need.",
   },
 ];
 
@@ -31,10 +41,10 @@ const FAQ = () => {
     <div className="faq-page">
       <section className="faq-top-section">
         <div className="faq-text">
-          <h1>Frequently Asked Questions</h1>
-          <p>
-            At DoggieLawn, we believe that human and pet comfort should never be mutually exclusive. That's why we created the DoggieLawn - an innovative, natural indoor dog potty that pets and humans alike love. This dog potty grass is authentic grass with naturally-occurring microbes that break down dog urine, eliminating smells while providing a natural environment for your pup to do its business. DoggieLawn is easy to use, perfect for pets, and much better for the environment than artificial dog grass pads.
-          </p>
+      <h1>Frequently Asked Questions</h1>
+      <p>
+        Welcome to our FAQ page! Here you'll find answers to common questions about our site, how to navigate it, and how you can contribute. We aim to provide a rich resource for bridge enthusiasts and anyone interested in learning more about these incredible structures.
+      </p>
         </div>
         <div className="faq-image-container">
           <img src={dogImage} alt="Dog" />
