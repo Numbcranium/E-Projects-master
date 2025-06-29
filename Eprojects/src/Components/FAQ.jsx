@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import dogImage from "../assets/puppy.jpg"; 
+import dogImage from "../assets/puppy2.jpg"; 
 
 const faqData = [
   {
