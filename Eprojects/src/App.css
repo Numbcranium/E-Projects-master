@@ -939,3 +939,128 @@ height: 30vh;
 height: 25vh;
 }
 }
+/* FAQ Page Styles - Complete redesign to match provided image */
+
+.faq-page {
+  font-family: 'Georgia', serif;
+  color: #333;
+  max-width: 100%;
+  margin: 0 auto;
+  /* padding: 0 1rem 3rem 1rem; */
+}
+
+.faq-top-section {
+  display: flex;
+  background-color: #fceeea;
+  width: 1300px;
+  padding: 3rem 2rem 3rem 3rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  border-radius: 8px;
+}
+
+.faq-text {
+  flex: 1;
+}
+
+.faq-text h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.faq-text p {
+  font-size: 1rem;
+  line-height: 1.6;
+  width:800px;
+  color: #333;
+}
+
+.faq-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.faq-image-container img {
+  width:250px;
+  height: auto;
+  border-radius: 10px;
+  margin-right:100px;
+  object-fit: cover;
+}
+
+/* FAQ List Section */
+.faq-list {
+  margin-top: 3rem;
+  max-width: 700px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.faq-signing-up {
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: #7ac142; /* green color */
+  margin-bottom: 1rem;
+  font-family: 'Georgia', serif;
+}
+
+.faq-item {
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+}
+
+.faq-question {
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000;
+  font-family: 'Georgia', serif;
+}
+
+.faq-icon {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.faq-answer {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.5;
+  font-family: 'Georgia', serif;
+}
+
+/* Responsive FAQ */
+@media (max-width: 768px) {
+  .faq-top-section {
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+  .faq-image-container {
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  .faq-image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  .faq-text p {
+    max-width: 100%;
+  }
+  .faq-list {
+    max-width: 100%;
+  }
+}
