@@ -712,7 +712,7 @@ justify-content: space-between;
 align-items: center;
 width: 100%;
 height: 60px;
-background-color: red;
+background-color: rgb(238, 218, 218);
 font-size: 22px;
 font-family: sans-serif;
 padding: 10px 100px 0;
@@ -726,15 +726,15 @@ align-items: center;
 }
 
 .bridge-attribute.height {
-background-color: #f4a261;
+background-color: grey;
 }
 
 .bridge-attribute.year {
-background-color: #e9c46a;
+background-color: rgb(233, 206, 155);
 }
 
 .bridge-attribute.length {
-background-color: #264653;
+background-color: #0e1d23;
 color: white;
 }
 
@@ -823,12 +823,18 @@ margin-left: 0;
 text-align: center;
 }
 }
+@media(max-width:390px){
+  .bridge-attributes-header{
+    padding: 10px 50px 0;
+  }
+}
 
 @media (max-width: 375px) {
 .bridge-image {
 height: 30vh;
 }
 }
+
 
 @media (max-width: 320px) {
 .bridge-image {
