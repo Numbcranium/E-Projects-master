@@ -8,7 +8,7 @@ import BridgeSection from "./Components/BridgeSection";
 import Gallery from "./Components/Gallery";
 import Sitemap from "./Components/Sitemap";
 import Footer from "./Components/Footer";
-import ReviewCarousel from "./Components/ReviewCarousel";
+// import ReviewCarousel from "./Components/ReviewCarousel";
 import BridgeDetail from "./Components/BridgeDetail";
 import FAQ from "./Components/FAQ";
 import FeedbackForm from "./Components/FeedbackForm";
